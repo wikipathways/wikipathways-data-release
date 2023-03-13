@@ -35,6 +35,6 @@ jobs:
 
       - name: List all dirs of modified files # "modified" includes deleted files
         run: |
-          for dir in ${{ steps.changed-files-dir-names.outputs.dirs }}; do
+          for dir in ${{ steps.changed-files-dir-names.outputs.all_modified_files }}; do
             echo "$dir contains modified file"
           done
