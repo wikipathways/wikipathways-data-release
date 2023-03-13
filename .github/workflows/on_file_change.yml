@@ -1,0 +1,40 @@
+name: Update file index page
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  
+    name: Test changed-files
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+
+      - name: List all modified files # "modified" includes deleted files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            echo "$file was modified"
+          done
+
+      - name: Get dir_names of changed files
+        id: changed-files-dir-names
+        uses: tj-actions/changed-files@v35
+        with:
+          dir_names: "true"
+
+      - name: List all dirs of modified files # "modified" includes deleted files
+        run: |
+          for dir in ${{ steps.changed-files-dir-names.outputs.dirs }}; do
+            echo "$dir contains modified file"
+          done
