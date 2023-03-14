@@ -84,7 +84,7 @@ jobs:
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
             # Loop through all folders in the directory
-            for subdir in $(find . -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort -r)
+            for subdir in $(find . -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort -rn)
             do
               folder=$(basename $subdir)
                 # Get the count, and last modified date
