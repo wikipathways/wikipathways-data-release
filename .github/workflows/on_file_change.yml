@@ -20,7 +20,7 @@ jobs:
         id: changed-files-dir-names
         uses: tj-actions/changed-files@v35
         with:
-          dir_names: "true"
+          dir_names: true
       - name: Generate index files
         run: |
           header_html="$(cat template_header.html)"
