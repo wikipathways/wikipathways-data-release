@@ -18,7 +18,7 @@ jobs:
 
       - name: Get dir_names of changed files
         id: changed-files-dir-names
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v35.7.1
         with:
           dir_names: true
       - name: Generate index files
