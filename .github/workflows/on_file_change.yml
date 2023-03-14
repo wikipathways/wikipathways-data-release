@@ -25,7 +25,6 @@ jobs:
           files_ignore: |
             .github
             .html
-
       - name: Generate index files
         run: |
           header_html="$(cat template_header.html)"
