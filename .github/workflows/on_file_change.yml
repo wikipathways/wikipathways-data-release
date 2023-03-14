@@ -60,7 +60,7 @@ jobs:
             do
               folder=$(basename $subdir)
                 # Get the count, and last modified date
-                filecount=$(find $subdir -maxdepth 2 -type f ! -name "*.html" | wc -l)
+                filecount=$(find $subdir -mindepth 1 -maxdepth 1 -type f ! -name "*.html" | wc -l)
                 modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
                 # Create a table row with the file information 
                 table_html+="\n<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
@@ -80,7 +80,7 @@ jobs:
             do
               folder=$(basename $subdir)
                 # Get the count, and last modified date
-                filecount=$(find $subdir -maxdepth 2 -type f ! -name "*.html" | wc -l)
+                filecount=$(find $subdir -mindepth 2 -maxdepth 2 -type f ! -name "*.html" | wc -l)
                 modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
                 # Create a table row with the file information 
                 table_html+="\n<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
