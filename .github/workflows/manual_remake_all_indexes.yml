@@ -92,7 +92,7 @@ jobs:
               table_html+='<p><a href="../">Parent directory</a></p>'
               # Assemble and save HTML
               file_html="$header_html$table_html$footer_html"
-              echo "$file_html" > "$dir/index.html"
+              echo "$file_html" > "$release_dir/$dir/index.html"
             done
           done
           
