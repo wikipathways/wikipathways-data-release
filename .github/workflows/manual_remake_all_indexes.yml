@@ -17,6 +17,7 @@ jobs:
           header_html="$(cat template_header.html)"
           footer_html="$(cat template_footer.html)"
           ## MAKE HOME TABLE ##
+          echo "Working on: home"
           #TODO: Insert banner with links to full archive at Zenodo
           table_html=""
           table_html+="<table class=\"table table-striped table-bordered table-hover\">"
@@ -41,7 +42,7 @@ jobs:
           home_html="$header_html$table_html$footer_html"
           echo "$home_html" > "./index.html"
           ## MAKE RELEASE FOLDER TABLES ##
-          for release_dir in $unique_release_dirs
+          for release_dir in ${unique_release_dirs[@]}
           do
             echo "Working on: $release_dir"
             #TODO: Insert banner with links to full archive at Zenodo
@@ -70,8 +71,9 @@ jobs:
             folder_html="$header_html$table_html$footer_html"
             echo "$folder_html" > "$release_dir/index.html"
             ## MAKE FILE TABLE PER TYPE ##
-            for dir in $unique_type_dirs
+            for dir in ${unique_type_dirs[@]}
             do
+              echo "Working on: $release_dir/$dir"
               #TODO: Insert banner with links to citeable DOIs at Zenodo
               table_html=""
               table_html+="<table class=\"table table-striped table-bordered table-hover\">"
