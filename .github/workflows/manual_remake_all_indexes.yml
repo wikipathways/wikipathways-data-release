@@ -40,6 +40,7 @@ jobs:
           # Assemble and save HTML
           home_html="$header_html$table_html$footer_html"
           echo "$home_html" > "./index.html"
+          echo "unique_release_dirs: ${unique_release_dirs[@]}"
           ## MAKE RELEASE FOLDER TABLES ##
           for release_dir in $unique_release_dirs
           do
