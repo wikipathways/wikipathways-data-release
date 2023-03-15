@@ -32,7 +32,7 @@ jobs:
             fi
             # Get the count, and last modified date
             filecount=$(find $subdir -mindepth 2 -maxdepth 2 -type f ! -name "*.html" | wc -l)
-            modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
+            modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$subdir")
             # Create a table row with the file information 
             table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
           done
@@ -43,6 +43,7 @@ jobs:
           ## MAKE RELEASE FOLDER TABLES ##
           for release_dir in $unique_release_dirs
           do
+            echo "Working on: $release_dir"
             #TODO: Insert banner with links to full archive at Zenodo
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
@@ -58,7 +59,7 @@ jobs:
               fi
               # Get the count, and last modified date
               filecount=$(find $subdir -mindepth 1 -maxdepth 1 -type f ! -name "*.html" | wc -l)
-              modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
+              modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$subdir")
               # Create a table row with the file information 
               table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
             done
@@ -82,7 +83,7 @@ jobs:
                   # Get the file name, size, and last modified date
                   filename=$(basename "$file")
                   filesize=$(du -h "$file" | cut -f1)
-                  modified=$(date -r "$file" "+%d %b %Y %l:%M %p")
+                  modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$file")
                   # Create a table row with the file information
                   table_html+="<tr><td><a class="file-link" href=\"$filename\">$filename</a></td><td>$filesize</td><td>$modified</td></tr>"
                 fi
