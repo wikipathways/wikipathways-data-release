@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - '**/*.html'
+      - '.github'
 
 jobs:
   update-indexes:
@@ -89,24 +90,26 @@ jobs:
             echo "$folder_html" > "$release_dir/index.html"
           done
           ## MAKE HOME TABLE ##
-          #TODO: Insert banner with links to full archive at Zenodo
-          table_html=""
-          table_html+="<table class=\"table table-striped table-bordered table-hover\">"
-          table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
-          # Loop through all folders in the directory
-          for subdir in $(find . -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort -rn)
-          do
-            folder=$(basename $subdir)
-            # Get the count, and last modified date
-            filecount=$(find $subdir -mindepth 2 -maxdepth 2 -type f ! -name "*.html" | wc -l)
-            modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
-            # Create a table row with the file information 
-            table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
-          done
-          table_html+="</table>"
-          # Assemble and save HTML
-          home_html="$header_html$table_html$footer_html"
-          echo "$home_html" > "./index.html"
+          if [ ${#unique_release_dirs[@]} -ne 0 ]; then
+            #TODO: Insert banner with links to full archive at Zenodo
+            table_html=""
+            table_html+="<table class=\"table table-striped table-bordered table-hover\">"
+            table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
+            # Loop through all folders in the directory
+            for subdir in $(find . -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort -rn)
+            do
+              folder=$(basename $subdir)
+              # Get the count, and last modified date
+              filecount=$(find $subdir -mindepth 2 -maxdepth 2 -type f ! -name "*.html" | wc -l)
+              modified=$(date -r "$subdir" "+%d %b %Y %l:%M %p")
+              # Create a table row with the file information 
+              table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
+            done
+            table_html+="</table>"
+            # Assemble and save HTML
+            home_html="$header_html$table_html$footer_html"
+            echo "$home_html" > "./index.html"
+          fi
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update file index pages
