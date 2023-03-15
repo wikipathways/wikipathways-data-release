@@ -42,7 +42,6 @@ jobs:
             fi
             type=${dir##*/} 
             ## MAKE FILE TABLE ##
-            #TODO: Insert banner with links to citeable DOIs at Zenodo
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>File Name</th><th>File Size</th><th>Last Modified</th></tr></thead>"
@@ -65,10 +64,9 @@ jobs:
             file_html="$header_html$table_html$footer_html"
             echo "$file_html" > "$dir/index.html"
           done
-          for release_dir in $unique_release_dirs
+          for release_dir in ${unique_release_dirs[@]}
           do
             ## MAKE FOLDER TABLE ##
-            #TODO: Insert banner with links to full archive at Zenodo
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
@@ -91,7 +89,6 @@ jobs:
           done
           ## MAKE HOME TABLE ##
           if [ ${#unique_release_dirs[@]} -ne 0 ]; then
-            #TODO: Insert banner with links to full archive at Zenodo
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
