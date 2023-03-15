@@ -6,7 +6,7 @@ on:
       - main
     paths-ignore:
       - '**/*.html'
-      - '.github'
+      - '.github/**'
 
 jobs:
   update-indexes:
