@@ -1,0 +1,19 @@
+name: Publish latest release to Zenodo
+
+on:
+  workflow_dispatch:
+  #schedule:
+  #- cron: "30 06 15 * *"
+
+jobs:
+  publish-zenodo:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Publish to Zenodo
+        run: echo "TODO"
