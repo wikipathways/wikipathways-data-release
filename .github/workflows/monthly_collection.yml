@@ -16,6 +16,19 @@ jobs:
           path: wikipathways-data-release
           fetch-depth: 0
           ref: main
+  
+      - name: Install jq and R packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          sudo apt-get install libcurl4-openssl-dev
+          Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","WikidataQueryServiceR"))'
+
+      - name: Install rWikiPathways
+        run: |
+          remotes::install_cran("BiocManager")
+          BiocManager::install("rWikiPathways", ask = FALSE)
+        shell: Rscript {0}
 
       - name: Checkout Jekyll
         uses: actions/checkout@v3
@@ -24,7 +37,6 @@ jobs:
           path: wikipathways.github.io
           fetch-depth: 0
           ref: main
-          ssh-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
       - name: Checkout Assets
         uses: actions/checkout@v3
@@ -33,20 +45,6 @@ jobs:
           path: wikipathways-assets
           fetch-depth: 0
           ref: main
-          ssh-key: ${{ secrets.ASSETS_DEPLOY_KEY }}
-  
-      - name: Install jq and R packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-          sudo apt-get install libcurl4-openssl-dev
-          Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","WikidataQueryServiceR"), lib = "/home/runner/work/_temp/Library")'
-
-      - name: Install rWikiPathways
-        run: |
-          remotes::install_cran("BiocManager")
-          BiocManager::install("rWikiPathways", ask = FALSE)
-        shell: Rscript {0}
 
       - name: Make data release folders
         run: |
@@ -116,7 +114,16 @@ jobs:
           wget -O wikipathways-data-release/${RELDATE}/rdf/wikipathways-${RELDATE}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
 
       - name: Commit new files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: New data release files
-          file_pattern: '**/*.zip **/*.gmt **/*.ttl'
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          cd wikipathways-data-release/${RELDATE}
+          git add */*.{zip,gmt,ttl}
+          if git diff --exit-code --staged; then
+              echo "No changes"
+          else
+              git pull
+              git commit -m 'New release of data files'
+              git push
+          fi
+          
