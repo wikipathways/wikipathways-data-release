@@ -1,4 +1,4 @@
-name: On file change, update index pages
+name: 2. On file change, update index pages
 
 on:
   push:

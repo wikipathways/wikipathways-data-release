@@ -1,4 +1,4 @@
-name: Replace current folder with latest release
+name: 3. Replace current folder with latest release
 
 on:
   workflow_dispatch:
@@ -16,4 +16,17 @@ jobs:
           ref: main
 
       - name: Replace current
-        run: echo "TODO"
+        run: |
+          latest=0
+          for d in ./*; do
+            echo $d
+            if [[ -d "$d" && ${#d} -eq 10 ]]; then
+              num=${d: -8}
+              if [[ $num -gt $latest ]]; then
+                latest=$num
+              fi
+            fi
+          done
+          rm -rf current
+          mkdir current
+          cp -R $latest/* current/.

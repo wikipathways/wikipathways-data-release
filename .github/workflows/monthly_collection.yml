@@ -1,4 +1,4 @@
-name: Collect files for data release monthly
+name: 1. Collect files for data release monthly
 
 on:
   workflow_dispatch:
@@ -9,6 +9,8 @@ jobs:
   collect-files:
     runs-on: ubuntu-latest  
     name: Collect data release files
+    env: 
+      RELDATE: $(date +"%Y%m%d")
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -33,14 +35,6 @@ jobs:
           BiocManager::install("rWikiPathways", ask = FALSE)
         shell: Rscript {0}
 
-      - name: Checkout Jekyll
-        uses: actions/checkout@v3
-        with:
-          repository: wikipathways/wikipathways.github.io
-          path: wikipathways.github.io
-          fetch-depth: 0
-          ref: main
-
       - name: Checkout Assets
         uses: actions/checkout@v3
         with:
@@ -51,26 +45,25 @@ jobs:
 
       - name: Make data release folders
         run: |
-          RELDATE=$(date +"%Y%m%d")
-          mkdir -p "wikipathways-data-release/${RELDATE}/gpml"          
-          mkdir -p "wikipathways-data-release/${RELDATE}/svg"
-          mkdir -p "wikipathways-data-release/${RELDATE}/gmt"
-          mkdir -p "wikipathways-data-release/${RELDATE}/rdf"
+          mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/gpml"          
+          mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/svg"
+          mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt"
+          mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/rdf"
 
       - name: Collect GPML, SVG, TSV and INFO files
         run: |
-          OPINDEX=$(cat wikipathways.github.io/org-pathway-index.json)
+          OPINDEX=$(curl -s https://wikipathways.org/org-pathway-index.json | jq -c '.')
           for ORGANISM in $(echo $OPINDEX | jq -r '.[].organisms[] | @base64'); do
             ORGANISM_JSON=$(echo ${ORGANISM} | base64 --decode)
             LATIN=$(echo ${ORGANISM_JSON} | jq -r '.latin')
             echo "${LATIN}"
             TWO_LETTER_CODE=$(echo ${ORGANISM_JSON} | jq -r '.["two-letter-code"]')
-            GPML_FOLDER="wikipathways-${RELDATE}-gpml-${LATIN}"
-            mkdir -p "wikipathways-data-release/${RELDATE}/gpml/${GPML_FOLDER}"
-            SVG_FOLDER="wikipathways-${RELDATE}-svg-${LATIN}"
-            mkdir -p "wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}"
-            GMT_FOLDER="wikipathways-${RELDATE}-gmt-${LATIN}"
-            mkdir -p "wikipathways-data-release/${RELDATE}/gmt/${GMT_FOLDER}"
+            GPML_FOLDER="wikipathways-${{ env.MY_VARIABLE }}-gpml-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/gpml/${GPML_FOLDER}"
+            SVG_FOLDER="wikipathways-${{ env.MY_VARIABLE }}-svg-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/svg/${SVG_FOLDER}"
+            GMT_FOLDER="wikipathways-${{ env.MY_VARIABLE }}-gmt-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt/${GMT_FOLDER}"
             for PATHWAY in $(echo ${ORGANISM_JSON} | jq -r '.pathways[] | @base64'); do
               PATHWAY_JSON=$(echo ${PATHWAY} | base64 --decode)
               TITLE=$(echo ${PATHWAY_JSON} | jq -r '.title')
@@ -78,49 +71,49 @@ jobs:
               echo "${WPID}"
               LAST_EDITED=$(echo ${PATHWAY_JSON} | jq -r '.["last-edited"]')
               GPML_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.gpml"
-              cp wikipathways-assets/pathways/${WPID}/${WPID}.gpml "wikipathways-data-release/${RELDATE}/gpml/${GPML_FOLDER}/${GPML_FILE}"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}.gpml "wikipathways-data-release/${{ env.MY_VARIABLE }}/gpml/${GPML_FOLDER}/${GPML_FILE}"
               SVG_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.svg"
-              cp wikipathways-assets/pathways/${WPID}/${WPID}.svg "wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}/${SVG_FILE}"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}.svg "wikipathways-data-release/${{ env.MY_VARIABLE }}/svg/${SVG_FOLDER}/${SVG_FILE}"
               TSV_FILE="${WPID}.tsv"
-              cp wikipathways-assets/pathways/${WPID}/${WPID}-datanodes.tsv "wikipathways-data-release/${RELDATE}/gmt/${GMT_FOLDER}/${TSV_FILE}"
-              INFO_FILE="wikipathways-data-release/${RELDATE}/gmt/${GMT_FOLDER}/${WPID}.info"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}-datanodes.tsv "wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt/${GMT_FOLDER}/${TSV_FILE}"
+              INFO_FILE="wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt/${GMT_FOLDER}/${WPID}.info"
               TITLE_GMT=$(echo ${TITLE} | sed 's/_\+/ /g')
               echo "title: ${TITLE_GMT}" > "${INFO_FILE}"
-              echo "version: WikiPathways_${RELDATE}" >> "${INFO_FILE}"
+              echo "version: WikiPathways_${{ env.MY_VARIABLE }}" >> "${INFO_FILE}"
               echo "wpid: ${WPID}" >> "${INFO_FILE}"
               LATIN_GMT=$(echo ${LATIN} | sed 's/_\+/ /g')
               echo "latin: ${LATIN_GMT}" >> "${INFO_FILE}"
               echo "url: https://www.wikipathways.org/instance/${WPID}" >> "${INFO_FILE}"
             done
             echo "zip gpml"
-            zip -j wikipathways-data-release/${RELDATE}/gpml/${GPML_FOLDER}.zip wikipathways-data-release/${RELDATE}/gpml/${GPML_FOLDER}/*
+            zip -j wikipathways-data-release/${{ env.MY_VARIABLE }}/gpml/${GPML_FOLDER}.zip wikipathways-data-release/${{ env.MY_VARIABLE }}/gpml/${GPML_FOLDER}/*
             echo "zip svg"
-            zip -j wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}.zip wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}/*
+            zip -j wikipathways-data-release/${{ env.MY_VARIABLE }}/svg/${SVG_FOLDER}.zip wikipathways-data-release/${{ env.MY_VARIABLE }}/svg/${SVG_FOLDER}/*
           done
 
       - name: Generate GMT files from TSV and temporary INFO
         run: |
-          cp wikipathways-data-release/make-gmts.R wikipathways-data-release/${RELDATE}/gmt/.
-          cd wikipathways-data-release/${RELDATE}/gmt
+          cp wikipathways-data-release/make-gmts.R wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt/.
+          cd wikipathways-data-release/${{ env.MY_VARIABLE }}/gmt
           Rscript -e "source('make-gmts.R')"
           cd ../../..
 
       - name: Generate Authors RDF
         run: |
           Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
-          mv wikipathways-${RELDATE}-rdf-authors.zip wikipathways-data-release/${RELDATE}/rdf/.
+          mv wikipathways-${{ env.MY_VARIABLE }}-rdf-authors.zip wikipathways-data-release/${{ env.MY_VARIABLE }}/rdf/.
 
       - name: Collect RDF and TTL files
         run: |
-          wget -O wikipathways-data-release/${RELDATE}/rdf/wikipathways-${RELDATE}-rdf-gpml.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-gpml.zip
-          wget -O wikipathways-data-release/${RELDATE}/rdf/wikipathways-${RELDATE}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
-          wget -O wikipathways-data-release/${RELDATE}/rdf/wikipathways-${RELDATE}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
+          wget -O wikipathways-data-release/${{ env.MY_VARIABLE }}/rdf/wikipathways-${{ env.MY_VARIABLE }}-rdf-gpml.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-gpml.zip
+          wget -O wikipathways-data-release/${{ env.MY_VARIABLE }}/rdf/wikipathways-${{ env.MY_VARIABLE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
+          wget -O wikipathways-data-release/${{ env.MY_VARIABLE }}/rdf/wikipathways-${{ env.MY_VARIABLE }}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
 
       - name: Commit new files
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          cd wikipathways-data-release/${RELDATE}
+          cd wikipathways-data-release/${{ env.MY_VARIABLE }}
           git add */*.{zip,gmt,ttl}
           if git diff --exit-code --staged; then
               echo "No changes"

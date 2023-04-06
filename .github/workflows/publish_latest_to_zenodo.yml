@@ -1,4 +1,4 @@
-name: Publish latest release to Zenodo
+name: 4. Publish latest release to Zenodo
 
 on:
   workflow_dispatch:
