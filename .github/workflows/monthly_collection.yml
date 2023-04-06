@@ -98,9 +98,9 @@ jobs:
             zip -j wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}.zip wikipathways-data-release/${RELDATE}/svg/${SVG_FOLDER}/*
           done
 
-      - name: Generate GMT files from TSV and INFO
+      - name: Generate GMT files from TSV and temporary INFO
         run: |
-          cp wikipathways-data-release/make_gmts.R wikipathways-data-release/${RELDATE}/gmt/.
+          cp wikipathways-data-release/make-gmts.R wikipathways-data-release/${RELDATE}/gmt/.
           cd wikipathways-data-release/${RELDATE}/gmt
           Rscript -e "source('make-gmts.R')"
           cd ../../..
