@@ -101,6 +101,14 @@ jobs:
           Rscript -e "source('make-gmts.R')"
           cd ../../..
 
+      - name: Checkout Jekyll
+        uses: actions/checkout@v3
+        with:
+          repository: wikipathways/wikipathways.github.io
+          path: wikipathways.github.io
+          fetch-depth: 0
+          ref: main
+
       - name: Generate Authors RDF
         run: |
           Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
