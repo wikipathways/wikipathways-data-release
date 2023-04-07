@@ -132,5 +132,9 @@ jobs:
           else
               git pull
               git commit -m 'New release of data files'
-              git push
           fi
+
+      - name: Push as user
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PICOPAT2}}
