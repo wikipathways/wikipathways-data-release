@@ -2,8 +2,8 @@ name: 1. Collect files for data release monthly
 
 on:
   workflow_dispatch:
-  #schedule:
-  #- cron: "30 06 10 * *"
+  schedule:
+  - cron: "30 06 10 * *"
 
 jobs:
   collect-files:
