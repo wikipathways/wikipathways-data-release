@@ -34,6 +34,10 @@ jobs:
           unique_release_dirs=()
           for dir in ${{ steps.changed-files-dir-names.outputs.all_modified_files }}
           do
+            if [ ! -d "$dir" ]; then
+              echo "$dir has been deleted"
+              continue
+            fi
             echo "$dir contains modified files"
             # Collect unique list of release folders
             release_dir=${dir%/*}
@@ -88,7 +92,7 @@ jobs:
             echo "$folder_html" > "$release_dir/index.html"
           done
           ## MAKE HOME TABLE ##
-          if [ ${#unique_release_dirs[@]} -ne 0 ]; then
+          # whether adding or deleting dirs
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
@@ -106,7 +110,6 @@ jobs:
             # Assemble and save HTML
             home_html="$header_html$table_html$footer_html"
             echo "$home_html" > "./index.html"
-          fi
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update file index pages
