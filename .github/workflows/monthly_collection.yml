@@ -128,7 +128,7 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           cd wikipathways-data-release/${{ env.RELDATE }}
-          git add */*.{zip,gmt,ttl}
+          git add */*.{zip,ttl}
           if git diff --exit-code --staged; then
               echo "No changes"
           else
