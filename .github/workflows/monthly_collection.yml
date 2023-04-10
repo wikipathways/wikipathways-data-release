@@ -21,13 +21,13 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      # - name: Setup R
-      #   uses: r-lib/actions/setup-r@v2
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
   
-      # - name: Install jq
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y jq
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - name: Checkout Assets
         uses: actions/checkout@v3
@@ -44,78 +44,78 @@ jobs:
           mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/gmt"
           mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/rdf"
 
-      # - name: Collect GPML, SVG, TSV and INFO files
-      #   run: |
-      #     OPINDEX=$(curl -s https://www.wikipathways.org/org-pathway-index.json | jq -c '.')
-      #     for ORGANISM in $(echo $OPINDEX | jq -r '.[].organisms[] | @base64'); do
-      #       ORGANISM_JSON=$(echo ${ORGANISM} | base64 --decode)
-      #       LATIN=$(echo ${ORGANISM_JSON} | jq -r '.latin')
-      #       echo "${LATIN}"
-      #       TWO_LETTER_CODE=$(echo ${ORGANISM_JSON} | jq -r '.["two-letter-code"]')
-      #       GPML_FOLDER="wikipathways-${{ env.RELDATE }}-gpml-${LATIN}"
-      #       mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}"
-      #       SVG_FOLDER="wikipathways-${{ env.RELDATE }}-svg-${LATIN}"
-      #       mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}"
-      #       GMT_FOLDER="wikipathways-${{ env.RELDATE }}-gmt-${LATIN}"
-      #       mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}"
-      #       for PATHWAY in $(echo ${ORGANISM_JSON} | jq -r '.pathways[] | @base64'); do
-      #         PATHWAY_JSON=$(echo ${PATHWAY} | base64 --decode)
-      #         TITLE=$(echo ${PATHWAY_JSON} | jq -r '.title')
-      #         WPID=$(echo ${PATHWAY_JSON} | jq -r '.wpid')
-      #         echo "${WPID}"
-      #         LAST_EDITED=$(echo ${PATHWAY_JSON} | jq -r '.["last-edited"]')
-      #         GPML_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.gpml"
-      #         cp wikipathways-assets/pathways/${WPID}/${WPID}.gpml "wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}/${GPML_FILE}"
-      #         SVG_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.svg"
-      #         cp wikipathways-assets/pathways/${WPID}/${WPID}.svg "wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}/${SVG_FILE}"
-      #         TSV_FILE="${WPID}.tsv"
-      #         cp wikipathways-assets/pathways/${WPID}/${WPID}-datanodes.tsv "wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${TSV_FILE}"
-      #         INFO_FILE="wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${WPID}.info"
-      #         TITLE_GMT=$(echo ${TITLE} | sed 's/_\+/ /g')
-      #         echo "title: ${TITLE_GMT}" > "${INFO_FILE}"
-      #         echo "version: WikiPathways_${{ env.RELDATE }}" >> "${INFO_FILE}"
-      #         echo "wpid: ${WPID}" >> "${INFO_FILE}"
-      #         LATIN_GMT=$(echo ${LATIN} | sed 's/_\+/ /g')
-      #         echo "latin: ${LATIN_GMT}" >> "${INFO_FILE}"
-      #         echo "url: https://www.wikipathways.org/instance/${WPID}" >> "${INFO_FILE}"
-      #       done
-      #       echo "zip gpml"
-      #       zip -j wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}.zip wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}/*
-      #       echo "zip svg"
-      #       zip -j wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}.zip wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}/*
-      #     done
+      - name: Collect GPML, SVG, TSV and INFO files
+        run: |
+          OPINDEX=$(curl -s https://www.wikipathways.org/org-pathway-index.json | jq -c '.')
+          for ORGANISM in $(echo $OPINDEX | jq -r '.[].organisms[] | @base64'); do
+            ORGANISM_JSON=$(echo ${ORGANISM} | base64 --decode)
+            LATIN=$(echo ${ORGANISM_JSON} | jq -r '.latin')
+            echo "${LATIN}"
+            TWO_LETTER_CODE=$(echo ${ORGANISM_JSON} | jq -r '.["two-letter-code"]')
+            GPML_FOLDER="wikipathways-${{ env.RELDATE }}-gpml-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}"
+            SVG_FOLDER="wikipathways-${{ env.RELDATE }}-svg-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}"
+            GMT_FOLDER="wikipathways-${{ env.RELDATE }}-gmt-${LATIN}"
+            mkdir -p "wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}"
+            for PATHWAY in $(echo ${ORGANISM_JSON} | jq -r '.pathways[] | @base64'); do
+              PATHWAY_JSON=$(echo ${PATHWAY} | base64 --decode)
+              TITLE=$(echo ${PATHWAY_JSON} | jq -r '.title')
+              WPID=$(echo ${PATHWAY_JSON} | jq -r '.wpid')
+              echo "${WPID}"
+              LAST_EDITED=$(echo ${PATHWAY_JSON} | jq -r '.["last-edited"]')
+              GPML_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.gpml"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}.gpml "wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}/${GPML_FILE}"
+              SVG_FILE="${TWO_LETTER_CODE}_${TITLE}_${WPID}_${LAST_EDITED}.svg"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}.svg "wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}/${SVG_FILE}"
+              TSV_FILE="${WPID}.tsv"
+              cp wikipathways-assets/pathways/${WPID}/${WPID}-datanodes.tsv "wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${TSV_FILE}"
+              INFO_FILE="wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${WPID}.info"
+              TITLE_GMT=$(echo ${TITLE} | sed 's/_\+/ /g')
+              echo "title: ${TITLE_GMT}" > "${INFO_FILE}"
+              echo "version: WikiPathways_${{ env.RELDATE }}" >> "${INFO_FILE}"
+              echo "wpid: ${WPID}" >> "${INFO_FILE}"
+              LATIN_GMT=$(echo ${LATIN} | sed 's/_\+/ /g')
+              echo "latin: ${LATIN_GMT}" >> "${INFO_FILE}"
+              echo "url: https://www.wikipathways.org/instance/${WPID}" >> "${INFO_FILE}"
+            done
+            echo "zip gpml"
+            zip -j wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}.zip wikipathways-data-release/${{ env.RELDATE }}/gpml/${GPML_FOLDER}/*
+            echo "zip svg"
+            zip -j wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}.zip wikipathways-data-release/${{ env.RELDATE }}/svg/${SVG_FOLDER}/*
+          done
 
-      # - name: Install R packages
-      #   run: |
-      #     sudo apt-get install libcurl4-openssl-dev
-      #     Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","WikidataQueryServiceR","remotes"))'
+      - name: Install R packages
+        run: |
+          sudo apt-get install libcurl4-openssl-dev
+          Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","WikidataQueryServiceR","remotes"))'
 
-      # - name: Install rWikiPathways
-      #   run: |
-      #     remotes::install_cran("BiocManager")
-      #     BiocManager::install("rWikiPathways", ask = FALSE)
-      #   shell: Rscript {0}
+      - name: Install rWikiPathways
+        run: |
+          remotes::install_cran("BiocManager")
+          BiocManager::install("rWikiPathways", ask = FALSE)
+        shell: Rscript {0}
 
-      # - name: Generate GMT files from TSV and temporary INFO
-      #   run: |
-      #     cp wikipathways-data-release/make-gmts.R wikipathways-data-release/${{ env.RELDATE }}/gmt/.
-      #     cd wikipathways-data-release/${{ env.RELDATE }}/gmt
-      #     Rscript -e "source('make-gmts.R')"
-      #     cd ../../..
+      - name: Generate GMT files from TSV and temporary INFO
+        run: |
+          cp wikipathways-data-release/make-gmts.R wikipathways-data-release/${{ env.RELDATE }}/gmt/.
+          cd wikipathways-data-release/${{ env.RELDATE }}/gmt
+          Rscript -e "source('make-gmts.R')"
+          cd ../../..
 
-      # - name: Checkout Jekyll
-      #   uses: actions/checkout@v3
-      #   with:
-      #     repository: wikipathways/wikipathways.github.io
-      #     path: wikipathways.github.io
-      #     fetch-depth: 0
-      #     ref: main
+      - name: Checkout Jekyll
+        uses: actions/checkout@v3
+        with:
+          repository: wikipathways/wikipathways.github.io
+          path: wikipathways.github.io
+          fetch-depth: 0
+          ref: main
 
-      # - name: Generate Authors RDF
-      #   run: |
-      #     Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
-      #     ls -l
-      #     mv wikipathways-${{ env.RELDATE }}-rdf-authors.zip wikipathways-data-release/${{ env.RELDATE }}/rdf/.
+      - name: Generate Authors RDF
+        run: |
+          Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
+          ls -l
+          mv wikipathways-${{ env.RELDATE }}-rdf-authors.zip wikipathways-data-release/${{ env.RELDATE }}/rdf/.
 
       - name: Collect RDF and TTL files
         run: |
@@ -128,7 +128,7 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           cd wikipathways-data-release/${{ env.RELDATE }}
-          git add */*.{zip,ttl}
+          git add */*.{zip,gmt,ttl}
           if git diff --exit-code --staged; then
               echo "No changes"
           else
