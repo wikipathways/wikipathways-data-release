@@ -12,6 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          persist-credentials: false
+          token: ${{ secrets.PICOPAT2 }}
           fetch-depth: 0
           ref: main
 
