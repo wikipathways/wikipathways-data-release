@@ -28,17 +28,8 @@ jobs:
   
       - name: Publish to Zenodo
         run: |
-          # Get latest release number
-          RELEASE=0
-          for d in wikipathways-data-release/*; do
-            echo "comparing $d"
-            if [[ -d "$d" && ${#d} -eq 10 ]]; then
-              num=${d: -8}
-              if [[ $num -gt $RELEASE ]]; then
-                RELEASE=$num
-              fi
-            fi
-          done
+          # Find latest 8-digit release number from dir names under wikipathways-data-release
+          RELEASE=$(ls -d wikipathways-data-release/* | grep -o '[0-9]\{8\}' | sort -n | tail -1)
           echo "RELEASE set to $RELEASE"
           # Copy files from pyzenodo4wpdata
           cp pyzenodo4wpdata/pyzenodo4wpdata.py .

@@ -19,19 +19,10 @@ jobs:
 
       - name: Replace current
         run: |
-          latest=0
-          for d in ./*; do
-            echo $d
-            if [[ -d "$d" && ${#d} -eq 10 ]]; then
-              num=${d: -8}
-              if [[ $num -gt $latest ]]; then
-                latest=$num
-              fi
-            fi
-          done
+          LATEST=$(ls -d wikipathways-data-release/* | grep -o '[0-9]\{8\}' | sort -n | tail -1)
           rm -rf current
           mkdir current
-          cp -R $latest/* current/.
+          cp -R $LATEST/* current/.
 
       - name: Commit new files
         run: |
