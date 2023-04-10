@@ -1,4 +1,4 @@
-name: 4. Publish latest release to Zenodo
+name: 3. Publish latest release to Zenodo
 
 on:
   workflow_dispatch:
@@ -8,12 +8,51 @@ on:
 jobs:
   publish-zenodo:
     runs-on: ubuntu-latest  
+    env: 
+      ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          path: wikipathways-data-release
           fetch-depth: 0
           ref: main
 
+      - name: Checkout pyzenodo4wpdata
+        uses: actions/checkout@v3
+        with:
+          repository: wikipathways/pyzenodo4wpdata
+          path: pyzenodo4wpdata
+          fetch-depth: 0
+          ref: main
+  
       - name: Publish to Zenodo
-        run: echo "TODO"
+        run: |
+          # Get latest release number
+          RELEASE=0
+          for d in ./*; do
+            echo $d
+            if [[ -d "$d" && ${#d} -eq 10 ]]; then
+              num=${d: -8}
+              if [[ $num -gt $RELEASE ]]; then
+                RELEASE=$num
+              fi
+            fi
+          done
+          # Copy files from pyzenodo4wpdata
+          cp pyzenodo4wpdata/pyzenodo4wpdata.py .
+          cp pyzenodo4wpdata/meta-template.json .
+          # Publish GMT to Zenodo
+          for f in wikipathways-data-release/$RELEASE/gmt/*.gmt; do
+            if [ -f "$f" ]; then
+              echo "$f"
+              python pyzenodo4wpdata.py ${env.ZENODO_TOKEN} meta-template.json $RELEASE $f -d
+            fi
+          done
+          # Publish GPML to Zenodo
+          for f in wikipathways-data-release/$RELEASE/gpml/*.zip; do
+            if [ -f "$f" ]; then
+              echo "$f"
+              python pyzenodo4wpdata.py ${env.ZENODO_TOKEN} meta-template.json $RELEASE $f -d
+            fi
+          done

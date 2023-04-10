@@ -1,4 +1,4 @@
-name: 3. Replace current folder with latest release
+name: Utility - overwrite current folder with latest release
 
 on:
   workflow_dispatch:

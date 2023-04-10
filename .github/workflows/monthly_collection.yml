@@ -123,11 +123,17 @@ jobs:
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
 
+      - name: Replace current
+        run: |
+          rm -rf wikipathways-data-release/current
+          mkdir wikipathways-data-release/current
+          cp -R wikipathways-data-release/${{ env.RELDATE }}/* wikipathways-data-release/current/.
+
       - name: Commit new files
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          cd wikipathways-data-release/${{ env.RELDATE }}
+          cd wikipathways-data-release
           git add */*.{zip,gmt,ttl}
           if git diff --exit-code --staged; then
               echo "No changes"
