@@ -30,8 +30,8 @@ jobs:
         run: |
           # Get latest release number
           RELEASE=0
-          for d in ./*; do
-            echo $d
+          for d in wikipathways-data-release/*; do
+            echo "comparing $d"
             if [[ -d "$d" && ${#d} -eq 10 ]]; then
               num=${d: -8}
               if [[ $num -gt $RELEASE ]]; then
@@ -39,6 +39,7 @@ jobs:
               fi
             fi
           done
+          echo "RELEASE set to $RELEASE"
           # Copy files from pyzenodo4wpdata
           cp pyzenodo4wpdata/pyzenodo4wpdata.py .
           cp pyzenodo4wpdata/meta-template.json .
