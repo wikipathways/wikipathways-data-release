@@ -139,5 +139,5 @@ jobs:
       - name: Push as user
         uses: ad-m/github-push-action@master
         with:
-          directory: wikipathways-data-release/${{ env.RELDATE }}
+          directory: wikipathways-data-release
           github_token: ${{ secrets.PICOPAT2}}
