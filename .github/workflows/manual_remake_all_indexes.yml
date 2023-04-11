@@ -1,4 +1,4 @@
-name: Manually remake all index pages
+name: Utility - remake all index pages
 
 on:
   workflow_dispatch:
