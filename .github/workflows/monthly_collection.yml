@@ -123,11 +123,13 @@ jobs:
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
 
-      - name: Replace current
+      - name: Replace current and remove oldest
         run: |
           rm -rf wikipathways-data-release/current
           mkdir wikipathways-data-release/current
           cp -R wikipathways-data-release/${{ env.RELDATE }}/* wikipathways-data-release/current/.
+          RETIRE=$(ls -d wikipathways-data-release/* | grep -o '[0-9]\{8\}' | sort -n | head -1)
+          rm -rf wikipathways-data-release/${RETIRE}
 
       - name: Commit new files
         run: |
