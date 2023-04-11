@@ -38,13 +38,13 @@ jobs:
           for f in wikipathways-data-release/$RELEASE/gmt/*.gmt; do
             if [ -f "$f" ]; then
               echo "$f"
-              python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f -d
+              python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f
             fi
           done
           # Publish GPML to Zenodo
           for f in wikipathways-data-release/$RELEASE/gpml/*.zip; do
             if [ -f "$f" ]; then
               echo "$f"
-              python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f -d
+              python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f
             fi
           done
