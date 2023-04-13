@@ -7,7 +7,7 @@ library(dplyr)
 ############
 
 read_tsv_genes <- function(tsv_file) {
-  df <- read.table(tsv_file, header = TRUE, sep = "\t", fill=T, row.names = NULL)
+  df <- read.table(tsv_file, header = TRUE, sep = "\t", fill=T, row.names = NULL, quote = "\"")
   df <- na.omit(df[nzchar(df$NCBI.gene), which(names(df) == "NCBI.gene")])
   if (length(df)==0)
     return(NULL)
