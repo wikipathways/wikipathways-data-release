@@ -47,7 +47,7 @@ jobs:
       - name: Collect GPML, SVG, TSV and INFO files
         run: |
           OPINDEX=$(curl -s https://www.wikipathways.org/org-pathway-index.json | jq -c '.')
-          for ORGANISM in $(echo $OPINDEX | jq -r '.[].organisms[] | @base64'); do
+          for ORGANISM in $(echo $OPINDEX | jq -r '.organisms[] | @base64'); do
             ORGANISM_JSON=$(echo ${ORGANISM} | base64 --decode)
             LATIN=$(echo ${ORGANISM_JSON} | jq -r '.latin')
             echo "${LATIN}"
