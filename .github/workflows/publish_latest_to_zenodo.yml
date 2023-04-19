@@ -2,8 +2,8 @@ name: 3. Publish latest release to Zenodo
 
 on:
   workflow_dispatch:
-  #schedule:
-  #- cron: "30 06 15 * *"
+  schedule:
+  - cron: "30 06 15 * *"
 
 jobs:
   publish-zenodo:
