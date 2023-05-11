@@ -1,5 +1,6 @@
 # wikipathways-data-release
 Monthly data release
+http://www.wikipathways.org/wikipathways-data-release/
 
 ## Purpose
 This is a backup and future replacement for our wmcloud-hosted data archive site. In principle we should be able to replace that entire site and wp-data-release script with this repo (serves as Pages) and some GH Actions.
