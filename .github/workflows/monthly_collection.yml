@@ -123,25 +123,25 @@ jobs:
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-void.ttl https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/void_for_data.wp.org.ttl
 
-      - name: Replace current and remove oldest
+      - name: Replace current
         run: |
           rm -rf wikipathways-data-release/current
           mkdir wikipathways-data-release/current
           cp -R wikipathways-data-release/${{ env.RELDATE }}/* wikipathways-data-release/current/.
-          RETIRE=$(ls -d wikipathways-data-release/* | grep -o '[0-9]\{8\}' | sort -n | head -1)
-          rm -rf wikipathways-data-release/${RETIRE}
 
-      - name: Commit new files
+      - name: Commit new files and remove oldest
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           cd wikipathways-data-release
           git add */*.{zip,gmt,ttl}
+          RETIRE=$(ls -d * | grep -o '[0-9]\{8\}' | sort -n | head -1)
+          git rm -r ${RETIRE}
           if git diff --exit-code --staged; then
               echo "No changes"
           else
-              git pull
               git commit -m 'New release of data files'
+              git pull --rebase
           fi
 
       - name: Push as user
