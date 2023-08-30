@@ -2,4 +2,4 @@
 .RData
 .Rhistory
 .Rproj.user
-.Rproj
+*.Rproj
