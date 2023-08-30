@@ -71,7 +71,7 @@ jobs:
               TSV_FILE="${WPID}.tsv"
               cp wikipathways-assets/pathways/${WPID}/${WPID}-datanodes.tsv "wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${TSV_FILE}"
               INFO_FILE="wikipathways-data-release/${{ env.RELDATE }}/gmt/${GMT_FOLDER}/${WPID}.info"
-              TITLE_GMT=$(echo ${TITLE} | sed 's/_\+/ /g')
+              TITLE_GMT=$(echo ${TITLE} | sed 's/[^a-zA-Z0-9]\+/_/g')
               echo "title: ${TITLE_GMT}" > "${INFO_FILE}"
               echo "version: WikiPathways_${{ env.RELDATE }}" >> "${INFO_FILE}"
               echo "wpid: ${WPID}" >> "${INFO_FILE}"
