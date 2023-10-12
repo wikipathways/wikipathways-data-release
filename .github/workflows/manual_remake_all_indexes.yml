@@ -74,7 +74,7 @@ jobs:
               echo "Working on: $release_dir/$dir"
               table_html=""
               table_html+="<table class=\"table table-striped table-bordered table-hover\">"
-              table_html+="<thead class="table-dark"><tr><th>File Name</th><th>File Size</th><th>Last Modified</th></tr></thead>"
+              table_html+="<thead class="table-dark"><tr><th>File Name</th><th>File Size</th><th>Last Modified</th></tr></thead>\n"
               # Loop through all files in the directory
               for file in $(find "$release_dir/$dir" -mindepth 1 -maxdepth 1 -type f ! -name "*.html" | sort)
               do
@@ -84,7 +84,7 @@ jobs:
                   filesize=$(du -h "$file" | cut -f1)
                   modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$file")
                   # Create a table row with the file information
-                  table_html+="<tr><td><a class="file-link" href=\"$filename\">$filename</a></td><td>$filesize</td><td>$modified</td></tr>"
+                  table_html+="<tr><td><a class="file-link" href=\"$filename\">$filename</a></td><td>$filesize</td><td>$modified</td></tr>\n"
                 fi
               done
               table_html+="</table>"
