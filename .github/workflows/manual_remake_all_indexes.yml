@@ -89,7 +89,7 @@ jobs:
                   filesize=$(du -h "$file" | cut -f1)
                   modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$file")
                   # Create a table row with the file information
-                  table_html+="<tr><td><a class="file-link" href=\"$filename\">$filename</a></td><td>$filesize</td><td>$modified</td></tr>"
+                  table_html+="<tr><td><a class="file-link" id="File" href=\"$filename\">$filename</a></td><td>$filesize</td><td>$modified</td></tr>"
                   table_html+=$'\n'
                 fi
               done
