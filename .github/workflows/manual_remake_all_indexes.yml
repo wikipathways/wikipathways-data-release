@@ -21,6 +21,7 @@ jobs:
           table_html=""
           table_html+="<table class=\"table table-striped table-bordered table-hover\">"
           table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
+          table_html+=$'\n'
           unique_release_dirs=()
           # Loop through all folders in the directory
           for subdir in $(find . -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort -rn)
@@ -35,6 +36,7 @@ jobs:
             modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$subdir")
             # Create a table row with the file information 
             table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
+            table_html+=$'\n'
           done
           table_html+="</table>"
           # Assemble and save HTML
@@ -47,6 +49,7 @@ jobs:
             table_html=""
             table_html+="<table class=\"table table-striped table-bordered table-hover\">"
             table_html+="<thead class="table-dark"><tr><th>Folder Name</th><th>File Count</th><th>Last Modified</th></tr></thead>"
+            table_html+=$'\n'
             unique_type_dirs=()
             # Loop through all folders in the directory
             for subdir in $(find "$release_dir" -mindepth 1 -maxdepth 1 -type d ! -name ".*" | sort)
@@ -61,6 +64,7 @@ jobs:
               modified=$(git log -1 --format=%cd --date=format:'%d %b %Y %l:%M %p' -- "$subdir")
               # Create a table row with the file information 
               table_html+="<tr><td><a class="file-link" href=\"$folder\">$folder</a></td><td>$filecount</td><td>$modified</td></tr>"
+              table_html+=$'\n'
             done
             table_html+="</table>"
             # Add parent link (expect top level index)
@@ -74,7 +78,8 @@ jobs:
               echo "Working on: $release_dir/$dir"
               table_html=""
               table_html+="<table class=\"table table-striped table-bordered table-hover\">"
-              table_html+=$'<thead class=table-dark><tr><th>File Name</th><th>File Size</th><th>Last Modified</th></tr></thead>'
+              table_html+="<thead class=table-dark><tr><th>File Name</th><th>File Size</th><th>Last Modified</th></tr></thead>"
+              table_html+=$'\n'
               # Loop through all files in the directory
               for file in $(find "$release_dir/$dir" -mindepth 1 -maxdepth 1 -type f ! -name "*.html" | sort)
               do
