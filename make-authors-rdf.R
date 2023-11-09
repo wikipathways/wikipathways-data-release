@@ -84,13 +84,13 @@ wpa.df <- left_join(wpa.df, authors.df[,c("username","realname")], "username")
 wpa.ttl <- wpa.df %>% dplyr::ungroup() %>%
   dplyr::mutate(s1 = paste0("https://identifiers.org/wikipathways/",wpid)) %>%
   dplyr::mutate(p1 = "dc:creator") %>%
-  dplyr::mutate(o1 = paste0('<http://rdf.wikipathways.org/User/',username,'>')) %>%
+  dplyr::mutate(o1 = paste0('<http://rdf.wikipathways.org/User/',gsub(" ","_",username),'>')) %>%
   dplyr::mutate(p2a = "a") %>%
   dplyr::mutate(o2a = paste0('foaf:Person')) %>%
   dplyr::mutate(p2b = "foaf:name") %>%
   dplyr::mutate(o2b = paste0('"',realname,'"')) %>%
   dplyr::mutate(p2c = "foaf:homepage") %>%
-  dplyr::mutate(o2c = paste0('<https://wikipathways.org/authors/',username,'>')) %>%
+  dplyr::mutate(o2c = paste0('<https://wikipathways.org/authors/',gsub(" ","%20",username),'>')) %>%
   dplyr::mutate(p2d = "pq:series_ordinal") %>%
   dplyr::mutate(o2d = paste0('"',ordinalRank,'"')) %>%
   dplyr::select(s1,p1,o1,p2a,o2a,p2b,o2b,p2c,o2c,p2d,o2d)
@@ -101,7 +101,7 @@ wpa.ttl2 <- wpa.ttl %>%
 
 ## dplyr::mutate orcid data for RDF
 orcid.ttl <- orcid_wd.df %>%
-  dplyr::mutate(o1 = paste0('<http://rdf.wikipathways.org/User/',username,'>')) %>%
+  dplyr::mutate(o1 = paste0('<http://rdf.wikipathways.org/User/',gsub(" ","_",username),'>')) %>%
   dplyr::mutate(p2a = "owl:sameAs") %>%
   dplyr::mutate(o2a = paste0('<http://www.wikidata.org/entity/',wikidata,'>')) %>%
   dplyr::mutate(p2b = "dc:identifier") %>%
