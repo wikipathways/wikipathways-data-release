@@ -112,6 +112,7 @@ jobs:
           ref: main
 
       - name: Generate Authors RDF
+        if: false
         run: |
           Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
           ls -l
