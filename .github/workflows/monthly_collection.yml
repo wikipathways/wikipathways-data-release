@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest  
     name: Collect data release files
     env: 
-      RELDATE: 0240201 #$(date +"%Y%m%d")
+      RELDATE: 20240201 #$(date +"%Y%m%d")
     steps:
       - name: Checkout
         uses: actions/checkout@v3
