@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest  
     name: Collect data release files
     env: 
-      RELDATE: 20240210 #$(date +"%Y%m%d")
+      RELDATE: $(date +"%Y%m%d")
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -112,14 +112,14 @@ jobs:
           ref: main
 
       - name: Generate Authors RDF
-        if: false
+        if: true
         run: |
           Rscript -e "source('wikipathways-data-release/make-authors-rdf.R')"
           ls -l
           mv wikipathways-${{ env.RELDATE }}-rdf-authors.zip wikipathways-data-release/${{ env.RELDATE }}/rdf/.
 
       - name: Collect RDF and TTL files
-        if: false
+        if: true
         run: |
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-gpml.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-gpml.zip
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
