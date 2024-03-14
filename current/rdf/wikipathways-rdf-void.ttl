@@ -1,0 +1,145 @@
+@prefix biopax:   <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix cito:     <http://purl.org/spar/cito/> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:     <http://xmlns.com/foaf/0.1/> .
+@prefix freq:     <http://purl.org/cld/freq/> .
+@prefix gpml:     <http://vocabularies.wikipathways.org/gpml#> .
+@prefix hmdb:     <https://identifiers.org/hmdb/> .
+@prefix ncbigene: <https://identifiers.org/ncbigene/> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix pav:      <http://purl.org/pav/> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix pubmed:   <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:     <http://rdfs.org/ns/void#> .
+@prefix wp:       <http://vocabularies.wikipathways.org/wp#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.wikipathways.org/20240310/linkset/lipidmaps>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to LIPID MAPS Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbLipidMaps ;
+        void:objectsTarget   <http://identifiers.org/lipidmaps/LMFA01050243> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/rhea>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to Rhea Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbRhea ;
+        void:objectsTarget   <http://identifiers.org/rhea/35868> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/rdf/wp>
+        rdf:type          dcat:Distribution ;
+        void:dataDump     <http://data.wikipathways.org/20240310/rdf/wikipathways-20240310-rdf-wp.zip> ;
+        dcat:downloadURL  <http://data.wikipathways.org/20240310/rdf/wikipathways-20240310-rdf-wp.zip> ;
+        dcat:mediaType    "application/zip" .
+
+<http://data.wikipathways.org/20240310/linkset/pubchem>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to PubChem Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbPubChem ;
+        void:objectsTarget   <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID101770> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/wikidata>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to Wikidata Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbWikidata ;
+        void:objectsTarget   <http://www.wikidata.org/entity/Q2013> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/ensembl>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to Ensembl Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbEnsembl ;
+        void:objectsTarget   <http://identifiers.org/ensembl/ENSG00000100031> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/chebi>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to ChEBI Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbChEBI ;
+        void:objectsTarget   <http://identifiers.org/chebi/CHEBI:138307> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/datasetDescription/>
+        rdf:type             void:DatasetDescription ;
+        dcterms:description  "This is the VoID description for this WikiPathways RDF dataset created on 20240310."@en ;
+        dcterms:issued       "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        dcterms:modified     "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        dcterms:title        "WikiPathways RDF VoID Description"@en ;
+        pav:createdBy        <https://github.com/wikipathways/GPML2RDF/> ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        pav:createdWith      <https://github.com/wikipathways/GPML2RDF/tree/v5> ;
+        pav:lastUpdateOn     "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        foaf:primaryTopic    <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/uniprot>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to UniProt Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbUniprot ;
+        void:objectsTarget   <http://identifiers.org/uniprot/17928> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/linkset/inchikey>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to InChIKey Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbInChIKey ;
+        void:objectsTarget   <http://identifiers.org/inchikey/ADVPTQAUNPRNPO-REOHCLBHSA-N> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
+
+<http://data.wikipathways.org/20240310/rdf/>
+        rdf:type                    void:Dataset ;
+        dcterms:accuralPeriodicity  freq:monthly ;
+        dcterms:description         "WikiPathways RDF data dump of the Curated and Reactome pathways created on 20240310." ;
+        dcterms:issued              "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        dcterms:license             <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:subject             wp:Catalysis , <https://identifiers.org/taxonomy/4081> , <https://identifiers.org/taxonomy/6239> , wp:Metabolite , <https://identifiers.org/taxonomy/3702> , <https://identifiers.org/taxonomy/4932> , wp:Complex , <https://identifiers.org/taxonomy/7165> , wp:Interaction , <https://identifiers.org/taxonomy/10090> , <https://identifiers.org/taxonomy/1773> , wp:Inhibition , <https://identifiers.org/taxonomy/7227> , <https://identifiers.org/taxonomy/4530> , <https://identifiers.org/taxonomy/9606> , wp:Protein , <https://identifiers.org/taxonomy/1423> , wp:Pathway , <https://identifiers.org/taxonomy/7955> , biopax:Pathway , <https://identifiers.org/taxonomy/9031> , wp:GeneProduct , <https://identifiers.org/taxonomy/10116> , wp:Binding , <https://identifiers.org/taxonomy/9615> , <https://identifiers.org/taxonomy/9598> , <https://identifiers.org/taxonomy/5518> , wp:Rna , wp:DirectedInteraction , <https://identifiers.org/taxonomy/4577> , <https://identifiers.org/taxonomy/5833> , wp:TranscriptionTranslation , <https://identifiers.org/taxonomy/562> , <https://identifiers.org/taxonomy/9913> , <https://identifiers.org/taxonomy/3694> , wp:ComplexBinding , wp:PublicationReference , wp:Stimulation , <https://identifiers.org/taxonomy/9796> ;
+        dcterms:title               "WikiPathways RDF 20240310" ;
+        pav:createdAt               <http://www.wikidata.org/entity/Q1137652> ;
+        pav:createdBy               <https://github.com/wikipathways/GPML2RDF> ;
+        pav:createdOn               "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        pav:importedFrom            <https://github.com/wikipathways/wikipathways-database> ;
+        pav:importedOn              "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:exampleResource        <https://identifiers.org/obo.chebi/17242> , hmdb:HMDB02005 , <https://rdf.wikipathways.org/WP15> , <https://identifiers.org/pubmed/15215856> , ncbigene:2678 ;
+        void:subset                 <http://data.wikipathways.org/20240310/rdf/gpml> , <http://data.wikipathways.org/20240310/rdf/wp> ;
+        void:uriSpace               "https://identifiers.org" , "http://rdf.wikipathways.org/wp/" ;
+        void:vocabulary             wp: , biopax: , gpml: , foaf: , pav: ;
+        dcat:landingPage            <http://www.wikipathways.org/> ;
+        dcat:theme                  <http://semanticscience.org/resource/SIO_001107> ;
+        foaf:homepage               <http://www.wikipathways.org/> .
+
+<http://data.wikipathways.org/20240310/rdf/gpml>
+        rdf:type          dcat:Distribution ;
+        void:dataDump     <http://data.wikipathways.org/20240310/rdf/wikipathways-20240310-rdf-gpml.zip> ;
+        dcat:downloadURL  <http://data.wikipathways.org/20240310/rdf/wikipathways-20240310-rdf-gpml.zip> ;
+        dcat:mediaType    "application/zip" .
+
+<http://data.wikipathways.org/20240310/linkset/complexportal>
+        rdf:type             void:Linkset ;
+        dcterms:license      <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        dcterms:title        "WPRDF to Complex Portal Linkset" ;
+        pav:createdOn        "2024-03-10T00:49:27.872Z"^^xsd:dateTime ;
+        void:linkPredicate   wp:bdbComplexPortal ;
+        void:objectsTarget   <http://identifiers.org/complexportal/CPX-373> ;
+        void:subjectsTarget  <http://data.wikipathways.org/20240310/rdf/> .
