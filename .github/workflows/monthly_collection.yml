@@ -119,7 +119,7 @@ jobs:
           mv wikipathways-${{ env.RELDATE }}-rdf-authors.zip wikipathways-data-release/${{ env.RELDATE }}/rdf/.
 
       - name: Collect RDF and TTL files
-        if: true
+        if: false
         run: |
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-gpml.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-gpml.zip
           wget -O wikipathways-data-release/${{ env.RELDATE }}/rdf/wikipathways-${{ env.RELDATE }}-rdf-wp.zip https://jenkins.bigcat.unimaas.nl/job/WikiPathways%20RDF%20-%20Monthly/lastSuccessfulBuild/artifact/WP2RDF/output/wikipathways-rdf-wp.zip
