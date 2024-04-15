@@ -35,12 +35,12 @@ jobs:
           cp pyzenodo4wpdata/pyzenodo4wpdata.py .
           cp pyzenodo4wpdata/meta-template.json .
           # Publish GMT to Zenodo
-          #for f in wikipathways-data-release/$RELEASE/gmt/*.gmt; do
-          #  if [ -f "$f" ]; then
-          #    echo "$f"
-          #    python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f
-          #  fi
-          #done
+          for f in wikipathways-data-release/$RELEASE/gmt/*.gmt; do
+            if [ -f "$f" ]; then
+              echo "$f"
+              python pyzenodo4wpdata.py ${ZENODO_TOKEN} meta-template.json $RELEASE $f
+            fi
+          done
           # Publish GPML to Zenodo
           for f in wikipathways-data-release/$RELEASE/gpml/*.zip; do
             if [ -f "$f" ]; then
