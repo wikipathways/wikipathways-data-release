@@ -82,12 +82,12 @@
         rdf:type             void:DatasetDescription ;
         dcterms:description  "This is the VoID description for this WikiPathways RDF dataset created on 20240410."@en ;
         dcterms:issued       "2024-04-10T00:49:27.872Z"^^xsd:dateTime ;
-        dcterms:modified     "2024-04-10T00:49:27.872Z"^^xsd:dateTime ;
+        dcterms:modified     "2024-04-21T14:29:00.000Z"^^xsd:dateTime ;
         dcterms:title        "WikiPathways RDF VoID Description"@en ;
         pav:createdBy        <https://github.com/wikipathways/GPML2RDF/> ;
         pav:createdOn        "2024-04-10T00:49:27.872Z"^^xsd:dateTime ;
         pav:createdWith      <https://github.com/wikipathways/GPML2RDF/tree/v5> ;
-        pav:lastUpdateOn     "2024-04-10T00:49:27.872Z"^^xsd:dateTime ;
+        pav:lastUpdateOn     "2024-04-21T14:29:00.000Z"^^xsd:dateTime ;
         foaf:primaryTopic    <http://data.wikipathways.org/20240410/rdf/> .
 
 <http://data.wikipathways.org/20240410/linkset/uniprot>
@@ -111,7 +111,7 @@
 <http://data.wikipathways.org/20240410/rdf/>
         rdf:type                    void:Dataset ;
         dcterms:accuralPeriodicity  freq:monthly ;
-        dcterms:description         "WikiPathways RDF data dump of the Curated and Reactome pathways created on 20240410." ;
+        dcterms:description         "WikiPathways RDF data dump of the Curated pathways created on 20240410." ;
         dcterms:issued              "2024-04-10T00:49:27.872Z"^^xsd:dateTime ;
         dcterms:license             <http://creativecommons.org/publicdomain/zero/1.0/> ;
         dcterms:subject             wp:Catalysis , <https://identifiers.org/taxonomy/4081> , <https://identifiers.org/taxonomy/6239> , wp:Metabolite , <https://identifiers.org/taxonomy/3702> , <https://identifiers.org/taxonomy/4932> , wp:Complex , <https://identifiers.org/taxonomy/7165> , wp:Interaction , <https://identifiers.org/taxonomy/10090> , <https://identifiers.org/taxonomy/1773> , wp:Inhibition , <https://identifiers.org/taxonomy/7227> , <https://identifiers.org/taxonomy/4530> , <https://identifiers.org/taxonomy/9606> , wp:Protein , <https://identifiers.org/taxonomy/1423> , wp:Pathway , <https://identifiers.org/taxonomy/7955> , biopax:Pathway , <https://identifiers.org/taxonomy/9031> , wp:GeneProduct , <https://identifiers.org/taxonomy/10116> , wp:Binding , <https://identifiers.org/taxonomy/9615> , <https://identifiers.org/taxonomy/9598> , <https://identifiers.org/taxonomy/5518> , wp:Rna , wp:DirectedInteraction , <https://identifiers.org/taxonomy/4577> , <https://identifiers.org/taxonomy/5833> , wp:TranscriptionTranslation , <https://identifiers.org/taxonomy/562> , <https://identifiers.org/taxonomy/9913> , <https://identifiers.org/taxonomy/3694> , wp:ComplexBinding , wp:PublicationReference , wp:Stimulation , <https://identifiers.org/taxonomy/9796> ;
