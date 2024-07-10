@@ -13,7 +13,7 @@ jobs:
       RELDATE: $(date +"%Y%m%d")
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
           token: ${{ secrets.PICOPAT2 }}
@@ -30,7 +30,7 @@ jobs:
           sudo apt-get install -y jq
 
       - name: Checkout Assets
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: wikipathways/wikipathways-assets
           path: wikipathways-assets
@@ -104,7 +104,7 @@ jobs:
           cd ../../..
 
       - name: Checkout Jekyll
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: wikipathways/wikipathways.github.io
           path: wikipathways.github.io
