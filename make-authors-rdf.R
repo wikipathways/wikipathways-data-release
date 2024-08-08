@@ -16,11 +16,11 @@ rel.date <- format(Sys.Date(),'%Y%m%d')
 author.mds <- list.files("wikipathways.github.io/_authors",".md")
 df <- lapply(author.mds, function(md){
   dat <- yaml::read_yaml(file.path("wikipathways.github.io/_authors",md))
+  dat$username = gsub("%\\(\\^", "PctOpenHat", dat$username)
   data.frame(username=dat$username,
                    realname=dat$realname,
                    orcid=ifelse(is.null(dat$orcid),NA,dat$orcid),
                    wikidata=ifelse(is.null(dat$wikidata),NA,dat$wikidata))
-  
 })
 authors.df <- do.call(rbind, df)
 
@@ -60,6 +60,7 @@ if(nrow(nowd.df) > 0){
 pathway.mds <- list.files("wikipathways.github.io/_pathways",".md")
 df <- lapply(pathway.mds, function(md){
   dat <- yaml::read_yaml(file.path("wikipathways.github.io/_pathways",md))
+  dat$authors = gsub("%\\(\\^", "PctOpenHat", dat$authors)
   data.frame(wpid=dat$wpid,
              username=dat$authors)
   
