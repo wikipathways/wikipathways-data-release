@@ -89,7 +89,7 @@ jobs:
         run: |
           sudo apt-get install libcurl4-openssl-dev
           Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","remotes"))'
-          Rscript -e 'remotes::install_github("wikipathways/WikidataQueryServiceR@main")'
+          Rscript -e 'remotes::install_github("wikipathways/WikidataQueryServiceR@main", dependencies=F)'
 
       - name: Install rWikiPathways
         run: |
