@@ -88,7 +88,7 @@ jobs:
       - name: Install R packages
         run: |
           sudo apt-get install libcurl4-openssl-dev
-          Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","remotes"))'
+          Rscript -e 'install.packages(c("tidyr","dplyr","magrittr","yaml","remotes","httr","jsonlite","WikipediR","ratelimitr","readr","rex"))'
           wget https://github.com/wikimedia/WikidataQueryServiceR/releases/download/v1.0.0/WikidataQueryServiceR_1.0.0.tar.gz
           Rscript -e 'install.packages("WikidataQueryServiceR_1.0.0.tar.gz", repos = NULL, type = "source")'
 
