@@ -140,7 +140,7 @@ jobs:
           cd wikipathways-data-release
           git add */*.{zip,gmt,ttl}
           # Keep the newest 6 releases (plus 20230810) so the Pages site stays under 1 GB
-          for RETIRE in $(ls -d * | grep -o '[0-9]\{8\}' | grep -v '^20230810$' | sort -n | head -n -6); do
+          for RETIRE in $(ls -d * | grep -x '[0-9]\{8\}' | grep -v '^20230810$' | sort -n | head -n -6); do
             git rm -r -q ${RETIRE}
           done
           if git diff --exit-code --staged; then
