@@ -19622,3 +19622,742 @@ PMC11231459__F2	Tumor progression targeting PDGFR-B signaling pathway, contribut
 PMC11231459__F4	Understanding the cross-connection between PDGF/PGDFR signaling with other cellular signaling pathways in cancer progression, has further exhibited adequate consequences in DFSP treatment (Pandey et al., 2023)	19211	17869	20846
 PMC11231459__F5	Understanding of FGFs/FGFR signaling pathway in pathogenesis of DFSP (created with Biorender.com)	14182	14183	327826	19412	14784
 PMC11395544__F9	Oral Administration of Probiotic Bifidobacterium breve Ameliorates Tonic–Clonic Seizure in a Pentylenetetrazole-Induced Kindling Mouse Model via Integrin-Linked Kinase Signaling	16202	12367	12387
+PMC12390510__F1	Proposal molecular mechanism model of mycotoxin exposure-induced cell apoptosis and oxidative stress in the intestines of animals	12359	21977	109807	18104	20655	12028	100035747	106821731
+PMC12521104__F3	TLR signaling pathways in humans and C	21898	81897	53791	117149	17874	14281	16476	19696	26940
+PMC12678262__F1	Exploring diversity: a review of animal models for investigating variations in sex characteristics	13360	20845	15492
+PMC12940779__F3	miRNAs regulating the MAPK signaling pathway	19412	12540	212541	20340	24064	16367	20807	11909
+PMC12372054__F2	Mechanistic basis of selected inherited cardiac arrhythmia syndromes	20271	16535	16511	20191	12373
+PMC12912455__F1	Substrate metabolic changes in cardiomyocytes in ischemic heart disease, treatment strategies and the role of stem cells in regulation of metabolism	12491	109541	14433	18745	104371	107423	12896	12974	71911
+PMC12927106__F1	Potential mechanisms for CBD antioxidant activity	18299	64384	26554	50868	17132	106821731	12359	109807
+PMC12940779__F1	miRNAs regulating the PI3K/AKT/mTOR signaling pathway	384783	21898	19211	20855	19288	16367	22339	56717	15251	17869
+PMC12960187__F4	Simulation of biological processes mediated by deer antler extracellular vesicles promoting tissue repair through core pathways	13055	103919	11789	12387	74256	263876	432940	20845	20848	19412	17126	17127	17128	104327
+PMC12292753__F2	Melatonin synthesis pathway with its associated enzymes	18299	11298	107626
+PMC12292753__F3	The interplay between homeobox genes and circadian regulators during development	19434	16876	16392	18508	16872	18424	244813	12951	11298	107626	20473	20476	11906	11865	12753
+PMC12294436__F6	Key mechanism of actions in the plant’s canonical RdDM pathway	21840	18202	76850	13488
+PMC12402163__F3	Gene networks analysis for milk yield trait in Holstein cows	333424	107951	17022	83767	64294	114663	230796	12035	14191	72543	66166	433766	67586	17180	18772	58233	68166	12683	12041	71902	13599	68828	269587	70574	14897	56219	18583	18557	68054	14683	56460	98496	15500	23833	14680	68267
+PMC12402163__F4	Gene networks analysis for milk protein percentage trait in Holstein cows	53859	20397	14186	14183	56698	18213	207425	18203	67027	11792	67872	20215	66341	50868	66078	11907	110157	212516	19951	94346	17193	22044	67784	212541	14407	17257	73845	19886	66637	319880	381802	81896	20351	18193	20349	67088	71902	330401	385380	68875
+PMC12402163__F7	Gene networks analysis for all traits in Holstein cows	12733	433766	117589	215436	381802	17246	21835	225659	57813	12683	22324	21823	213649	503610	380785	13599	109815	622480	14407	14767	56847	56219	13516	108123	22044	494504	67381	19951	14186	17118	98496	100210	67872	72635	14191	22339	21762	93834	69202	14089	81896	19942	71902	382406	225651	69597	13836	74442	19273	74254	76768	66716	14183	18213	116837	103468	17022	12468	23833	70247	667742	20970	330401	14748	269587	14680	212541	269941	29818	19231	70574	14897	66341	233328	207425	13386	230796	71781	94346	277744	67088	212516	277743	114663	67161	242669	68828	18193	15107	232339	67784	93760	64294	327766	94242	230801	16545	18159
+PMC12452346__F2	Non-canonical Wnt/Ca2+ signaling pathway	12540	18099	12387
+PMC12452346__F3	Wnt non-canonical PCP (Planar Cell Polarity) pathway	18543	20187	71461	18198	26563	12614	16348	208846	19353	11848
+PMC12934434__F1	Physiopathology of septic DIC	11789	21911	21788	18815
+PMC12934434__F4	Aptamers targeting excessive coagulation activation	19692	67606	11789	21911	21788
+PMC12960187__F3	Regulatory mechanisms of deer antler extracellular vesicles in multilevel tissue repair: a state-of-the-art review	17126	17127	21898	14784	20662	11848	19211	19412	19353	12540	12443	19664	14102
+PMC12967941__F2	T cell co-stimulatory pathways, subset differentiation, and effector mechanisms in xenotransplantation	12487	12477	12504	18462	104167	12475
+PMC13007995__F3	Pentose‐phosphate pathway (PPP)	104253	223453	19895	21881	109560	66646
+PMC12312369__F3	Comprehensive review on Fanconi anemia: insights into DNA interstrand cross-links, repair pathways, and associated tumors	245000	22036	408022	104806	14072	327762	26909	13870	330554	19361
+PMC12320187__F4	Different impacts of MNPs-MHT at cellular and subcellular levels	17418	20873	14835	109550	69146	12443	110280	18299
+PMC12321762__F7	Ferulic acid and N-Feruloylserotonin ameliorate LPS-induced intestinal inflammation via modulation of gut microbiota, metabolome, and transcriptome	54635	14184	18750	18751	18707	16797	20848	20852	19354	22637	60504	15001	15000	234779	19412	12767	20315	16183	16186	16196	16197	12443	110279	22034	21898	266632	16542	21802	16401	14991	14990	12010	12504
+PMC12343256__F1	Mechiasm of lipid accumulation	12491	14072	14102	21819
+PMC12455274__F3	Molecular mechanisms of guidance cues	13176	13508	11848	12540	20423	117606	19206	58203	319757	13543	12387	20187	17136	13131
+PMC12483610__F1	Canonical activation of the complement cascade	12263	191577	12268	12266	17174	17175	18299	12011
+PMC12643577__F2	Potential intracellular role of IgG2B to preservation and conversion of the astrocyte phenotype	67444	56717	17126	56637	382056
+PMC12660504__F3	Multifaceted roles of miRNAs in apoptosis regulation	14103	14102	14082	12370	12028	228026	387174	12367	18569
+PMC12800628__F3	Molecular mechanisms linking toxic heavy metals to neurological disorders	22241	93759	56717	12359
+PMC12928094__F2	Simplified schematic diagram illustrating the roles of mTOR and JAK/STAT signaling pathways in the regulation of axon regeneration	19211	12803	12702	20846	20848	64930	19744	19255	16600	13684
+PMC12928094__F3	Neuronal‐intrinsic mechanisms driving effective axon regeneration following nerve injury	22289	16600	12702	20848	20666	19712	16870	13018	16601	20674	214133	52463	21665	14056	11865	56808	194388	11845	19126	70762	54418	56717	67800	13350	21819	56637	13684	74143	170731	71648	67095	16573	78248
+PMC12940779__F2	miRNAs regulating JAK/STAT3 and Hippo signaling pathways	16798	16153	54721	319710	14164	16453	22431	20848	12043
+PMC12940779__F4	miRNAs regulating the TGFB1 signaling pathway	17131	66313	17127	17126	17128	17125	17129	17130
+PMC12970257__F1	One‐Stone‐Three‐Birds Biomimetic Oral Targeting Delivery Strategy for On‐Demand Controlled Drug Release and Intervertebral Disc Degeneration Therapy	11763	56717	24088	17874
+PMC12970273__F5	Key signaling pathways in scarless wound healing	18016	21813	21812	17126	17127	17128	20846	17131	17130	66313
+PMC12248563__F2	Cell Line Mapping of Colorectal Cancer Progression Through Driver Mutations	11789	16653	13176	109880	19211	21813	93897	18176	13866	13867	13382
+PMC12309935__F1	A, the inhibition of parathyroid hormone (PTH) release due to negative feedback is regulated by an increase of extracellular ionic calcium (Ca2+) or magnesium (Mg2+)	12374	18824	19226
+PMC12310498__F2	The key elements of the insulin signaling pathway	16367	384783	18607	19412	14072	11651	11652	12043	12491	22084	64930	56717	14835	109550	13684
+PMC12310625__F6	Model depicting how BFJD induces M1 polarization of macrophages via the CD40-ROS-NFKB signaling pathway to combat persistent MRSA infection	12772	21939	111343	21926
+PMC12310809__F2	NRF2/KEAP1 signaling pathway regulation	26554	13055	18104	12359	106821731
+PMC12320575__F2	Physical exercise‐induced metabolites and signaling pathways in the brain	216799	111343	72674	68465	12064	20848	56717	384061
+PMC12321762__F8	Ferulic acid and N-Feruloylserotonin ameliorate LPS-induced intestinal inflammation via modulation of gut microbiota, metabolome, and transcriptome	11839	16542	12768	19412	20307	12772	14784	19699	20308	12766	20779	214547
+PMC12343240__F3	Cuproptosis	20529	235339	14148	14159	79464
+PMC12343241__F2	Pathway and molecular link between diabetes and calcific aortic valve disease	111343	14745	12393	11848	12156	11911
+PMC12343525__F11	Illustration of the proposed effect of the APE1/Ref-1 redox inhibitor, E3330, in the inflammatory pain condition	111343	13489	13492	13488	12064	216799
+PMC12344419__F2	Ferroptosis and epilepsy: bidirectional pathogenic links and therapeutic implications	625249	20514	14660	17254	14835	109550	14782
+PMC12373584__F1	Ferroptosis driver or suppressor pathways	235293	17254	26570	20656	14528	218121	67216	625249	50790	56749	14792	68428
+PMC12389747__F2	Possible degradation pathway of circRNA	239528	109740	27041	24014	213541	72662	19704
+PMC12394712__F5	DAMPs and immune signal transduction	21898	228607	22031	17874	108960	22034	54131	12679	216799	111343	69146
+PMC12394712__F6	DAMPs-mediated proinflammatory signal transduction	214763	12263	20963	54131	117149	17874	19353	12540	20296	14825
+PMC12394712__F8	DAMPs—driven cardiac inflammatory injury	214763	216799	17874	15289	54131
+PMC12395928__F4	Stem cell-derived exosomes in skin aging	111343	17392	24063	19211
+PMC12396675__F10	Mechanisms underlying the effects of TGFBR1 gene silencing on the heart of HFpEF mice are as follows	19766	14082	21803	21812	22034	17126	21813	17127	12362
+PMC12399009__F1	HIF-1A: oxygen-dependent and inflammation-related pathways	18299	21926	15251	19211	20848	56717	228026
+PMC12401274__F1	Arachidonic acid metabolic pathways	21978	237716	16948
+PMC12409231__F2	Molecular mechanism of PI3K/AKT/mTOR and AMPK pathway-mediated mitophagy in NAFLD	56717	51897	22241	21425
+PMC12454208__F1	Lactylation	109801	18299	109546	20915	15139	15183	15182	433759	64384	64383	93759	217127	224805	60525	16828	16832
+PMC12467457__F5	Situation of Kbhb protein in the core metabolic pathways	14104	234309	14081	11428	104112	11409	14193	15926	18293	93747	15107	66945	56451	52538	110446	15360	15356
+PMC12483610__F2	Proposed scenarios and consequences of local complement activation in lung transplantation	110208	12266	13136	17221	12902	111343
+PMC12490864__F2	Players involved in each step of cellular mechanotransduction	104022	14072	22601
+PMC12490864__F3	Mechanical forces influence the activity of RBPs	15381	22601	21679	19653	268859	19303	22330	21956
+PMC12678299__F3	Regulation of HSC emergence by signaling pathways and the AGM microenvironment	111654	18595	19242	17311	16449	16590	16598	16600	14461	12394	17268	14462	217082
+PMC12828674__F3	Mechanistic diversity of GSDME‐dependent pyroptotic signaling in therapeutic and pathological contexts	21926	14939	11545	54722	71609	12362
+PMC12832225__F1	NLRP3 inflammasome signaling pathway	16179	266632	66513	68652	66724	83433	234779	69146	59125	216799
+PMC12907932__F1	FAS pathway’s crucial role in lymphocyte apoptosis	14102	14082	14103
+PMC12925099__F8	HIF-1A and HIF-2A inhibition combined with targeted treatment, radiation, and chemotherapy	19412	56717	15251	13856	12028
+PMC12927106__F5	Regulatory role of CBD in intestinal function	237038	19353	111343
+PMC12928064__F4	Impact of lifestyle intervention such as sleep on modulation of autophagic pathway	22084	64930	19744	56717	22241	51897	68118
+PMC12928064__F1	Autophagic pathway and its balance	51897	16797	67526	74244	68118	11793	67841
+PMC12932117__F2	Oxygen therapy after ICH	56717	18538	22371	12725	20846	109807	11829	19412	93759	21926
+PMC12933015__F2	The H3 and H4 histone chaperone pathway and nuclear import of histones	109741	75751	233726	15120	238799	70572	50927	15260
+PMC12938460__F4	The interplay between hypoxia, HIFs, and mtROS	15251	11697	12176	20656	109731	109807	17161
+PMC12938634__F4	Cellular and molecular mechanisms of oxLDL-driven neovascularization in multiple cell types	15251	21808	216799	111343	12491	214763
+PMC12939835__F2	Key role of ADORA2B in the calcium signaling pathway and its molecular docking results with LA	12390	12391	14835	109550	18821	110279	215999	21923	15464	21425
+PMC12943270__F7	Multi-Targeted Therapeutic Mechanisms of Huangqi Guizhi Wuwu Decoction Against Rheumatoid Arthritis: An Integrated Approach Combining Serum Pharmacochemistry, Network Pharmacology, Metabolomics, and Experimental Validation	20848	21926	22034	71609	22030	68652	66724	66513	111343
+PMC12943385__F9	Qingfei Tongluo Jiedu formula (QTJD) in the treatment of Mycoplasma pneumoniae pneumonia (MPP)	12274	21898	15945	16193	104327	12524	19412
+PMC12943739__F2	Molecular pathways involved in the pathogenesis of skin cancers	19206	24069	14632	319757	14634	14633	13649	19412	12028	11783	20779	14360	12015	12443	18976	17199	19211	56717	17342
+PMC12959294__F3	Clinical randomized controlled trial and network pharmacological analysis of blood glucose regulation by Korean red ginseng in patients with type 2 diabetes and impaired glucose regulation	69719	216456	17001	12028	211323	19247	16452	11423	16451	15260	259172	21898	14388	17756	277328	50701	227333	16816	20501	24088	243764	16017	12018	17755	13482	12043	18979	319757	14281	246788	12519	21926	14366	13649
+PMC12960602__F1	Molecular regulatory mechanisms of MQC	170731	67414	74143	12028	64384	93759	18181	56282	68943
+PMC12960602__F2	Molecular mechanisms of MQC in CKD	67414	170731	50490	93759	12028
+PMC12960602__F4	Natural chemical metabolites improving CKD by regulating MQC MQC-targeted natural chemical metabolites include RES, QR, and GA, which improve mitochondrial function through multiple pathways, thereby alleviating CKD	170731	67414	20233	68943	93759	20217	12028	56717	21898
+PMC12960602__F5	CBD formulation improving CKD by regulating mitochondrial function Renal mitochondrial dysfunction is one of the important causes of CKD	625249	93759	50490	12028	56458	109559	67375	64384	56717
+PMC12963228__F2	This schematic diagram delineates the core mechanistic framework of ferroptosis, encompassing the pivotal processes of iron metabolism, lipid peroxidation, and cellular antioxidant defense	12870	50790	26570	14792	14835	109550	625249
+PMC12965073__F1	Possible mechanisms by which mast cells are involved in visceral hypersensitivity	12917	109447	193034	17709	18049	111343
+PMC12969153__F2	Impact of fine particulate matter (PM2.5) exposure on thyroid diseases and potential molecular mechanisms	22018	21926	111343	109776	625249
+PMC12989912__F2	Regulators of MC4R trafficking	17202	244958	17237	11990	77407	329260
+PMC12991028__F3	 Schematic of signaling pathways for NSC differentiation regulated by the PPAR-siSOX9 nanoformulation;77,81 (B) schematic illustrating the mechanism of DM-NC evolution and its AB antiaggregation/disaggregation activity.78,82	22414	18012	12387	18299	13130	20682	11358
+PMC13040787__F3	Derivation of MSCs from hPSCs via mesoderm intermediate lineage	109641	17681	22328	14173	12159	13645	58992	12162	20233	12582	12387	21389	17293	14313	17292	17285	56184	13388	14056	242316	21349	14463	16542	15110	15227	15111	193796
+PMC13284805__F1	The regulation of oxidative phosphorylation (OXPHOS) by calcium ions	14473	215999	14719	17449	17153	17448	18517	14433	109807
+PMC10690207__F11	Interaction networks of DEGs in unique signaling pathways that are significantly affected at each time point (p-value ≤ 0	269643	17127	21678	68652	22601	14160	26414	13380	12162	208846	14369	15901	16475	12156	17717	23805	12534	14235	26564	72293	18797	19055	15258	12889	12236	107995	68010	23893	12159	207565	170758	432530	20910	382018	20907	26398	12914	18798	328572	56717	20418	14799	16476	12323	11515	64930
+PMC11601599__F15	BbLP induced changes in BMDMs	20304	16176	24088	21897	17874	14825	20310	216799	22034	19252	100038882	58185	14469	12028	22169	20656	229898	15957	15958
+PMC12246773__F3	Upregulated fatty acid biosynthesis and bypassing of defective CI in the heart of Ndufs4 KO mice	104112	107476	100705	14104	106529	13358	102632
+PMC12248563__F1	Molecular Pathways Dysregulated by Recurrent Colorectal Cancer Driver Mutations	11789	207742	16974	16973	12387	16653	109880	18706	13645	13649	56480	11920	245000	12505	17709	17246
+PMC12262294__F7	Depletion of PARP1 in macrophages enhances communication between macrophages and NK cells	11545	17533	19264	93671	17187
+PMC12262502__F12	Hypothetical interplay between LPS-induced signaling pathways and the modulatory effects of DHA+DEX on type I IFN-regulated and proinflammatory gene expression	12753	17874	14815	19697	13653	12912	12053	22608	20687	17869	18667	20181	16362	54123	14247	20296	15945	20846	20847	18029	15975	15976
+PMC12295658__F1	The main difference in human fucosylation pathways and patterns compared to animal models	69064	234730	22122	75540	228368	218138	140484	80294
+PMC12310466__F2	AKT inhibitors in gynecologic oncology: past, present and future	19211	64930	22084	12015	19744	13684	75705	12028
+PMC12310491__F1	DNA and RNA Methylation Dynamics in PF Pathogenesis	56335	228994	13435	20656	18140	19211	27528	17191	213541	12550	67302	12028
+PMC12310491__F4	MicroRNA Networks Controlling Fibroblast and Epithelial Cell Fate	16403	58909	24063	22027	12394	114716	15364	12018	21825
+PMC12310491__F6	circRNA-Mediated ceRNA and Mechanical Signal Transduction in PF	12389	12390	21813	21675
+PMC12310638__F2	Glucose metabolism	17869	52480	53610	12912	12215	18655	224273	15251	207728
+PMC12312280__F2	Necroptosis pathway	14103	14102	263876	117149	71609	14082	74256	17874	19766	66513	68652	58203	16896	56532	74568
+PMC12312369__F4	NEIL3 pathway and Acetaldehyde pathway: A After two replication forks converging, TRAIP-mediated MCM2-7 complex short ubiquitination in CMG helicase	11763	234258	22036
+PMC12313529__F3	Effectome of viral proteins identifies individual functions	19013	20788	20135	20194	17726	12505	16971	16398	16412	21418	19712	12512	12011	12558
+PMC12317044__F9	Diagram showing how HEP14 rejuvenates aged ovary by enhancing mitophagy via PKC-ERK1/2 pathway	13075	11697	12359
+PMC12317492__F1	Ub-Dependent and Ub-Independent Mitophagy	71648	18412	56208	17966	68943	228361	12176	72018	12034
+PMC12320140__F9	Leonurine Attenuates CCl4-Induced Hepatic Fibrosis in Mice via the Hippo-YAP Pathway	12842	107765	15235	16798
+PMC12321549__F2	Apoptosis induction by granzyme B (GZMB) secreted by NK and CTL cells	12028	12122	69719
+PMC12341429__F2	Graphical summary of HuR’s roles in liver homeostasis and MASLD pathogenesis	230075	67530	13063	19211	14955	238055	13122	13123	11816
+PMC12343259__F1	Cellular copper metabolism	12460	14148	20655	11927	12856	11979	11977	17708
+PMC12343259__F3	Effect of copper on ferroptosis	22042	68428	625249	52440	18299	17254	26570
+PMC12343731__F2	MicroRNAs modulated during supervised strength training (ST) and their action on related biochemical pathways favoring satellite cell differentiation	387202	723876	20837	16000	56717
+PMC12345928__F6	CaMKII participation in the mechanism underlying the antidepressant-like effects of ketamine/melatonin	17750	17748	109912	17756
+PMC12350364__F11	Mechanisms by which anemoside B4 (AB4) ameliorates SALI by regulating the AGE/RAGE/Nrf2 pathway	17254	26570	625249	14854	50868	106821731	111343
+PMC12351134__F2	Major signaling pathways that regulate eIF4E activity	18049	12064	56717	13684	75705
+PMC12358736__F1	Microglia mediated neuronal apoptosis in post‐TBI cognitive impairment	21926	14103	14102	14082	18299	12028
+PMC12360365__F7	Sirtuin1 mitigation of calcium oxalate nephropathy via enhancing itaconate abundance through reduction of histone trimethylation	93759	15251	66945
+PMC12370861__F1	Ferroptosis	68428	14319	50790	625249	15203	14792	18786
+PMC12370861__F10	Mechanisms targeting ferroptosis inhibition in brain tissue through acupuncture treatment for experimental stroke	14319	625249	50790
+PMC12371960__F1	Mitochondrial Protein Quality Control System	68943	270166	53895
+PMC12371960__F3	Mechanisms and Therapeutic Strategies Targeting Muscle Aging and Sarcopenia	93759	56717	16000	14219	12443	20296	21926	18181	67006	103172	17750	18170	18018
+PMC12374548__S1	The design and therapeutic mechanism of the multifunctional nanoplatform NPs(3-MA/siNrf2/P-18) for enhanced SDT and immune activation	15289	21898	18439	22277
+PMC12374583__F10	Targeting complement C3 with Tan I decreases microglia-mediated synaptic engulfment to exert antidepressant effects	12266	111343	111363	22117	14313	12514	18287	20848	20977	18774	104253
+PMC12383533__F5	Ras signaling networks and their oncogenic impact	14784	19412	14632	21844	13358
+PMC12389671__F9	Overall mechanism diagram of QFD against SIC by suppressing TLR4/NFKB/NLRP3 inflammatory pathway and modulating impaired FAO through activation of PPARA/CPT pathway	216799	12896	111343
+PMC12393297__F5	Proposed mechanism for urea carbon salvage in hibernating mammals during euthermic interbout arousals	109807	14599	111364
+PMC12394115__F2	Tumor suppressor PTEN attenuates PI3K/AKT signaling via PIP3-to-PIP2 conversion	228026	18604	16202	19211
+PMC12394403__F2	Overview the dual roles of NPR receptors across malignancies	12799	15251	20848	74143	17395	12895	17681	170731
+PMC12394429__F4	Integration of UPR signaling cascades in bone cell differentiation	12156	16000	16001	19226	17125	17129	17127	17126	19228	20187	26564	22418	16974	16973	208677	56637	208846	11848	26427	226641	78943	13666	12842	270669	12096	13395	11911	12393	17128	170574	11691	15891	110651	21943	232790	83433	20963	12229	234779	21934	12977	22034	50490	13058	19353	12978	18706	12913	56453	76737	17342	20375	14281	18018	22433	75766	74614	242341	14218
+PMC12394712__F7	DAMPs in tumor immunity	16193	56838	15289	16153	16163	216799
+PMC12394712__F9	DAMPs—mediated multi—organ inflammatory injury	15289	111343	216799
+PMC12396721__F7	Anti-aging effect of low molecular weight recombinant humanized collagen on photo-aging by activating adherence junction signaling pathways	21812	17126	17128	12550	21808
+PMC12396819__SF7_1.	Pathway map of the RAS Initiative with highlighted differentially expressed genes (DEGs) in ΔPr-A9 cells vs parental wild-type cells	22324	16800	13605	11848	11682	16337	12402	80794	208650	23920	14184	14255	13866	19886	13649	14182	14186	14183	384783	20662	19417	19418	19671	232906	18176	16653	18015	101809	114715	114716	114713	19414	19415	320484	226525	218397	57295	19877	19878	19247	66985	56289	215653	71323	237504	78748	213391	54354	73246	192678	19730	19731	19732	71746	109880	11836	19045	56392	18706	30955	18707	74055	23988	105782	23980	241694	56784	58231	56274	64010	16706	333050	194231	26395	17756	19211	26417	26413	22601	19765	102058	53413	105504	20336	107371	69940	66482	211446	18607	13875	24001	21844	109294	110651	20112	20111	17869	13712	14281	16476	23871	23872	20869	19353	170758	19354	19158	56480	14283	19744	17246	24066	24063	236576	24064	19252	67603	13537	319520	72349	240672	12444	12443	12445	108079	105787	19079	108097	108099	241113	19082	74370	56717	56716	18024	237038	18479	70584	224105	12567	12571	19645	13685	108112	13688	14783	72508	16898	12235	22171	19365	12428	12427	12367	12370	12369	12190	12189	52679	22256	13361	12575	11783	237911	17863	23834	12566	21877	17218	17217	17220	17215	17219	12021	12530	14088	14087
+PMC12397295__F7	Scheme showing the localization of CTL1, the metabolic pathway of choline and the mechanism of the choline uptake inhibitor hemicolinium-3 (HC-3) in human OSCC cells	110280	12647	12116	21831	18543	18618
+PMC12397687__F2	Glucose Metabolic Reprogramming in Colorectal Cancer: From Mechanisms to Targeted Therapy Approaches	14835	109550	109541	18516	15382	110208	21991	14433	74551	18517	18534	18745	74383
+PMC12398553__F2	Exosome cargo sorting	239528	53379	27681	16653	21681	233908
+PMC12399491__F1	Ferroptosis Pathway in Cancer Cells, Highlighting Key Regulatory Components and Their Interactions with Non-Coding RNAs	17002	17254	26570	21813	387210	723900	11486	11910	50790	14955
+PMC12399774__F4	The key proteins and signaling pathways involved in mitochondrial dynamics	63873	111343	93759	64384	67414	170731	74143
+PMC12401516__F4	Action of 3-CH2Cl in the suppression of NFKB expression	111343	117149	17874	11885	19697
+PMC12401865__F3	Summary of the molecular events triggered by TLR4 upon binding LPS	21898	53791	22031	17874	22034	170743	170744	27056	54123
+PMC12405617__F1	Protein O-GlcNAcylation in reproductive biology and the impact of metabolic disease	54342	109785	108155	76055	18299
+PMC12420515__F6	GWAS indicates potential peripheral regulatory factors linking hyperglycemia, hyperfructosemia and disrupted lipid metabolism with retinopathy	67861	11677	20322	15275	212032	15277	72141	103988	14377	16548	216019	110119	11674	11676	230163	18641	18642	14121	56421	225913	18770	18746	18534	74551	104112	107476	54397	14104	19063	15357	14081	328845	94180	74205	50790	216739	433256	11459	223920	16889
+PMC12429957__F6	MiR-7a–Klf4 axis regulating neuroinflammation and ferroptosis resulting in neurodegeneration through various pathways and its targeting by using miR7a and honokiol [Created in BioRender	16600	16571	18299	625249	21926	16193	216799	12362	111343
+PMC12433887__F6	Function and interaction analysis of key differential expression genes	68147	19698	12534	12048	16452	109880	56717	16542	16818	19697	19645	20416	14083	22323	12371	20617	18037	12928	110355
+PMC12451399__F5	Proposed anti‐fibrotic mechanism of oral HPB‐CD Angiotensin‐(1‐7) treatment	17127	17126	17131
+PMC12451833__F1	Arachidonic acid metabolization, its products and downstream signaling (not all pathways are shown)	18774	17136	18783	27416	16994	58861	70086	14289	11358	12679	12638	228026	12387	11651	11652
+PMC12455693__F1	Diagram of Ca2+ signaling pathways in a cell	66092	56384	68514	215999
+PMC12461077__F1	RIPK3 regulates microglial polarization through the TLR4/MyD88 pathway in neuropathic pain	21898	17874	56532	12524
+PMC12467343__F8	Mechanism diagram illustrating the neuroprotective effects of MsA in AD	11820	12064	11423	12038
+PMC12487352__F4	Cluster analysis of the Neurogranin-Calmodulin (Ng-CaM) binding proteins in the Blood Brain Barrier (BBB)	103929	111346	22003	11461	16017	11657	100124296	26875	17904	17886	29875	64011	56421	15481	17913	15526	76936	22187	108686	15516	14824	68166	17220	210789	227753	22352	19090	667663	16562	18477	108888	26936	59069	404710	67268	13627	192176	18746	14828	17912	70790	70572	74117	12340	108058	15510	80884	78388	20084	22143	22630	67951	18810	19285	114774	233870	212541	16828	20821	269523	22631	12345	12864	13629	15381
+PMC12502665__F7	 Upregulated miRNAs in wild-type mice altering 10 genes in Toll-like receptor signaling pathway	21899	54473	14082	117149	16803	12475	17874	68652	266632	22034	21331	26419	21939	142980	54123	12675	22031	56480	54131	15945	20840	24088	74769	12011	16179	110628	12519	12524	13038	111654	208650	12386	214547	74006	12757	12488	12928	16202	18706	56212	212541	11848
+PMC12512200__F6	Discovery the Mechanism of Qingdi Mixture for Radiation‐Induced Lung Injury Based on Network Pharmacology, Clinical Retrospective Analysis and Experimental Validation	20271	170770	13555	13867	19645	20787	12359	16362	19013	17523	18787	11684	11622	12578	50883	17395	16189	12675	17869	17392	14782	15561	20296	15945	12048	15978	18753	26416	21926	11651	15558	21803	14283	16183	11909	22339	12367	13649	20655	20750	12575	30955	13063	11798	20848	19697	22436	18750	18024	18126	17390	16002	14281	16009	12028	11835	15567	14104	15560	110157	21969	16193	16176	12393	18712	13866	193034	234779	16153	14609	23984	12043	16175	18538	18263	13983	18751	19211	15251	18667	17189	17246	19225	18127	16531	15499	13982	21947	21973	109731	12566	18035	16476	12505	13645	12534	56318	18791	16542	18984	18792	20339	20538	20310	12944	17210	19015
+PMC12513781__F6	Interaction networks of mRNA–miRNA and mRNA–TF	16363	21926	14312	71458	18029	12914	11863	20183	328572	19357	114142	18987	30942	13713	13006	21430	19066	17187	107951	21420	16478	14281	14390	18613	54123	17476	72832	383619
+PMC12535405__F1	TAS1R2/TAS1R3 heterodimer signaling pathway	18299	83770	83771	246722	546729	240669	56843
+PMC12554141__F1	Eupatilin ameliorates spinal cord injury by inhibiting damage-associated microglia and optimizing the regenerative microenvironment	14127	14824	110006	11846
+PMC12577593__F5	Protein-protein interactions in the DEPs of both sexes	66416	110323	12858	67680	68375	17991	78330	407785	67530	11740	27050	103920	547416	13806	67834	66445	14870
+PMC12578307__F10	Proposed mechanism of endocytic LPS transport during acute LCFA absorption and chronic feeding of a Western-style diet in the jejunum	14072	12491	12389	103932	20779
+PMC12578379__F3	Inhibitory effects of GLP-1 medicines on immune cell function	20315	11358	16818	22637	111343
+PMC12581756__F9	Mechanistic diagram of how extracellular vesicles of Lactobacillus plantarum (LPEVs) regulate lipid metabolism pathways in high‐fat diet‐induced obese mice	17874	104371	12894	14102	20249
+PMC12586102__F1	Regulatory T cell (Treg) dynamics and mechanisms in lung transplant outcomes	11789	16183	14939	12477	12519	12524	12487
+PMC12591086__F5	Protein network clusters and pathways enriched by differentially expressed genes in G2 female white adipose tissue	20384	20383	208650	22035	108155	20913	19325	22318	12402	56017	20663	105651	17844	26365	77781	23830	230796	18709	17096	20662	12015	72114	16002	16653	26396	109880	15461	19211	26395	23797	56637	93759	11545	606496	26413	19328	16150	72508	13684	19087	19079	19016	19645	16324	68401	20683	230784	14870	66277	209737	18519	235623	57264
+PMC12597476__SF4299 treatment in the antigen processing and presentation section of the KEGG pathview	Based on the results of the bulk RNA-seq analysis of the ileum of TS/AF299-treated mice, pathways predominantly associated with groups of genes and signaling molecules with variable expression were examined	15978	21355	21354	21356	12330	12317	12010	13030	17316	13039	13040	12504
+PMC12597945__F5	Visualization of the PI3K-AKT signaling pathway	56717	19744	22084	21977	19123	110279	20954	12478	111346	19211	12015	19651
+PMC12615295__F9	4′-hydroxychalcone nanofiber hydrogel dressing promotes diabetic chronic wound healing by regulating macrophage polarization via the TLR/IL-17/TNF signaling pathway	81897	17874	21926	12524	16172	22029
+PMC12617664__F7	Identification of upregulated pain signalling pathways in nerve terminals	13430	30948	13429	15163	56443	74117	76709	17920	56378	68089	11867	13424	229317	22153	16409	18706	72096	66656	14678	30949	19053	26413	26417	110651	19042	26397	18611	99349	13629	13631	22350	24015	224796	19684	17698
+PMC12632827__F6	Model illustrating SPRY4-ERK function during spermatogonia recovery and regeneration in BU-damaged mouse testis	24066	19412	104167
+PMC12643195__F1	Linking paternal diet to placental development workflow	109565	238037	12767	14085	18508	12867
+PMC12666479__F6	The mechanism of DAI‐triggered ferroptosis‐mediated activation of the cGAS‐STING pathway for initiating potent anti‐tumor immunity	74568	26570	625249	15945	54131	214763	12504
+PMC12675424__F1	Study and NAD synthesis pathways	56720	15930	15902	71562	70789	107766	67375	223646	226518	74080	66454	78914	18113	59027	18950	18170
+PMC12680073__F6	Analysis of differentially expressed proteins (DEPs) using STRING	19293	14599	18976	12424	17850	117592	16779	18074	72727	15531	12827	15530	12816	18073	116847	12833	12111	93683	56219	12834	76293	14264	23876	12797	21817	13798	12861	11475	14061	22352	13808	11937	233199	21957	12715	21952	59011	17901	21953	17880	66594	13482	22004	11464	107589	12389	20324	12798	19285	26903	17885	12259	57781	14252	12262	16423	12491	12520	17105
+PMC12681743__F17	Visualization of KEGG pathways for apoptosis and P53 signaling in the pancreas of Pnlip T221M mice	14082	22030	12364	104253	14939	14072	71609	21926	110628	11632	69719	11920	12015	12366	64704	11697	12449	12566	245000	17869	13555	19412	12028	12122	12371	12367	64058	170645	22084	26374	56717
+PMC12686511__F6	IDH2 deletion and fructose-mediated suppression of the SIRT3–IDH2 axis disrupt GSH-mediated detoxification and redox homeostasis	109542	109032	269951	103172
+PMC12691985__F3	Network of PPI of the top DEGs between the DIO + DHA and DIO groups	17260	19017	50874	17769	24053	12116	76722	13121	20391	13808	74376	56012	12737	233199	105463122	227753	23999	12865	18627	11459	17916	11537	18628	57264	17885	20303	12869	59011	22003	22004	55985	17884	12683	58916	17907	22227	14825	68802	11472	17901	11937	14311	13051	17996	21393	12372	21924	15464	433766	58522	17882	20209	16663	16682	12373	140497	12299	228785	80796	19264	22177	103988	14131	11733	11475	83433	14969	14960	13909	212032	11636	320502	12495	12525	404195	111364	14961	100039319	14998	18642	55932	22329	13058	12526	14999	16149	17969	14469	13040	26897	17970	17972
+PMC12704462__F5	Different nociceptive genes are expressed associated with visceral pain symptoms	18619	11606	22418	12424	67405	18049	13614	20256	15567	15442	16535	19259	211577	54598	233571	18430	387285	51801	13489	13051	108069	18217	15114	18752	13850	12227	110880	17380	13040	19223	72512	19215	16913	20312	432530	54140	11438	15416	16917	16485	68010	24088	333605	229323	243764
+PMC12704462__F6	Sex-specific regulation of NGF signaling and neurite growth signaling pathway following VEGF instillations	29873	22403	11816	22418	18787	12159	18053	12558	29820	13643	13649	16401	18049	76484	17756	15442	12870	77579	14173	227377	74018	71819	213498	19247	11858	18577	16570	13690	14457	53972	19412	15114	17128	63955	60344	14580
+PMC12713082__S1	Therapeutic Process: fCA‐BExo accumulates at osteoporosis lesions via CD44‐mediated homing effects	12156	22034	21977
+PMC12722326__F7	C7ORF41 Alleviates Ferroptosis Via the Keap1/Nrf2/HO-1 Axis in Endotoxin-Associated Acute Kidney Injury	17254	50868	625249	26570
+PMC12723107__F4	Pathway-pathway network of 108 shared genes between cardiovascular disease and rheumatoid arthritis	14124	110355	15894	216799	17390	18780	12458	12578	17395	16000	20296	20315	30955	13051	21947	18035	21898	24088	20750	16153	18707	12475	22339	16171	16173	11651	20848	16175	16176	21926	18383	18127	15251	56717	12491	19225	18706	16193	21803	18126	12826	11461	16846	15483	11450	11421	15510	19016
+PMC12743432__F9	Cell scheme illustrates the role of mTORc2 in regulating K+ excretion in the DCT, CNT and CCD	109920	232341	20393	12679
+PMC12749905__F1	Antitumor mechanism of PtIrFeMoZn HEA nanozymes	625249	18299	17523	214763	12504	15289
+PMC12751069__F4	Pathway enrichment analysis of differentially expressed genes in male and female high-fibre offpsring	107485	17136	19713	19123	12811	11492	108031	21819	12359	56086	11592	104253
+PMC12751986__F1	Schematic illustrating the inhibition of CCR7-mediated activation of the NFKB pathway by Col@PSVs to improve the progression of AS	24047	106821731	12775	109641
+PMC12767121__F1	Diagram of the potential neuropathology and mechanisms of TSC‐related epilepsy	97998	78757	56717	56716	19211	22084	64930	19744	66961
+PMC12784964__F1	Cell death pathways involved in AMI and IR	142980	21898	12015	12043	12370	12028	17210	74568	12367	12369	11783	58203
+PMC12784964__F4	During the initial stages of ischemia, cardiomyocytes tend to undergo apoptosis more frequently, whereas necroptosis is more prevalent during reperfusion	12043	17210	12028	74568
+PMC12785642__F5	Wnt signaling regulates myofibroblast differentiation	22411	22416	17127	12387	11789	11475
+PMC12791033__F7	CLIC1 in the regulation of actin cytoskeletal pathways	14061	12767	14062	19412	107698	109600	212541	19303	22330	12540	11789
+PMC12797317__F7	B cell signaling pathways in SLE by IPA	21947	21939	12478	81897	22324	24099	16193	15978	16153	60505	72049	12517	94212	12483	12507	18566	15985	12518	12988	387225	12402	15170	17060	83490	14784	14388	17874	12229	19412	266632	234779	18607	110157	16179	19247	18715	56717	12015	56637	22034	26409	12387	54131	54123	27056	22031	18034	54721	16451	16452	18774	20848	20846	20847	16391	18033	12445	12443	17869	12048	12043	17210	12444	12125	170743
+PMC12802310__F2	Aerobic exercise - induced miRNA signaling pathways in liver metabolic regulation	22340	12583	207565	104371	20249
+PMC12805403__F3	Dysregulation of mTOR and TGFB/SMAD signaling in the cellular senescence of PH	17127	17126	17128	56717	11920	12567	12571	12566
+PMC12805403__F6	Schematic diagram illustrating the dual role of aging in lung cancer initiation and progression	20848	56717	21752	16653
+PMC12807897__F0	Jaranol: a compound with therapeutic activity against pathological cardiac remodelling via multi-target inhibition of the Snai3/TLR2 and NFKB signaling pathways	24088	30927	110256
+PMC12808506__F8	Action of fenofibrate in irradiated HCAECs in-vitro	56717	214763	19697	100038882	17858	17857	246728	246727	12550	12562
+PMC12812506__F6	Synaptic Plasticity in Health and Disease	12064	12854	14473	20187	109912
+PMC12814072__F7	KEGG pathway of the cell cycle	22589	71175	13006	19357	74549	20843	20842	218914	17153	17126	17127	17128	17246	27401	69716	76464	12237	18538	12566	12572	12530	77011	105837	12544	23834	13055	12545	27214	11789
+PMC12821196__F8	HUSCs alleviating IMQ-induced psoriasis in mice	20309	16153	11846	16452	20848
+PMC12824918__S1	The protective mechanism of PHB2 against IVDDUnder inflammatory conditions in IVDD, activation of the TNF receptor (TNFR) triggers the RIPK1/RIPK3/MLKL signaling cascade, leading to necroptosis and mitochondrial damage	68943	12034	19766	56532	74568
+PMC12827279__F8	Changes on the protein (blue arrows) and transcriptomic level (red arrows) affecting the cellular mechanism related to the ferroptotic pathway	17254	15368	68428	27057	76959	67443	22334	22588	625249	52440	50790	433256	13482	16948
+PMC12828674__F5	Dual roles of pyroptosis in peripheral neuropathy: mechanisms and therapeutic targeting	216799	69146	12362	54722	111343
+PMC12828674__F4	Diverse caspase‐dependent pathways of gasdermin A, B, and C‐mediated pyroptosis in disease pathogenesis	12362	14938	21926	12369	71609	83492	57911
+PMC12830369__F4	SWI/SNF complexes and dysregulated signalling pathways in liver fibrosis and hepatobiliary carcinogenesis	17127	56637	17128	12387	11789	12505	15443	93760	20848	56717	73728	11798	20310	11668	12443	103919	13555	17130	53333	11697
+PMC12834071__F8	Graphical illustration of oxycodone pretreatment-mediated suppression of mitophagy in LPS-induced ALI or cell damage by regulating the HO-1 pathway	68943	67414	170731
+PMC12834158__F1	NAD+ -regulated isoform switching of EVA1C redirects protein quality control from proteasomal to autophagic degradation in tauopathy	70967	29810	12017	18412
+PMC12846341__F1	How various environmental, dietary, and pathological agents induce oxidative stress and trigger intestinal diseases including inflammatory bowel diseases	26554	50868	106821731	12359	112352	12737	18260	12739
+PMC12846341__F2	Nrf2 signaling pathway as a therapeutic target for intestinal inflammation	26554	50868	12359	112352	111343	18260	12739	106821731	12737
+PMC12849612__F5	Therapeutic effects of Gancao Xiexin Decoction on renal ischemia-reperfusion injury based on network pharmacology and experimental validation	21977	13595	19744	22084	14784	19412	103946	110279	20963	12478	12720	228026	19211	21432	19123	19651	17189	17246
+PMC12857770__F7	How the loss of Scly leads to BAT whitening and mild impairment of adaptive thermogenesis	14775	13371	625249	50880	22227
+PMC12859066__F8	Hippo/YAP1 and TGFB signaling pathways synergistically inhibit the expression of CRX	66646	15235	50523	16798	11700	22601	21414	12387	12951	72930
+PMC12895710__F7	Schematic Model Human umbilical cord mesenchymal stem cells (hUC-MSCs) secrete exosomes containing lncRNA ENST00000629969, which functions as a “sponge” for mmu-miR-6361, leading to the release of target mRNAs	17136	104253	16990	13055
+PMC12897762__F9	Mechanism hypothesis diagram of this research	213053	20514	104371	27057	68428	50790	14792	625249
+PMC12904049__F5	Tryptophan metabolism influenced csDMARD therapy in RA patients through multiomics analyses	16179	16001	16678	16852	12944	103962	240354	26417	232790	321019	209176	105675	227331	69956	13861	110157	13011	19942	20102	12502	12500	15930	111343	20779	19261	15289	71562	94212	12504	56045	98256
+PMC12905574__F8	Overexpression of CLU alleviates ferroptosis after spinal cord injury by regulating lipid metabolism and antioxidant pathways	12759	26570	625249	50790	20249
+PMC12912312__F1	Molecular mechanism of the mammalian circadian clock	11865	12753	13170	217166	18627	18628	12953	12952
+PMC12912444__F5	CSR and age-mediated effects on complement and coagulation cascades	107423	21788	14061	14058	14071	22371	14069	58992	12720	14136	12266	12269	109641	18517	18936	11789	232345	21911	112304	11697	14193	12924	12974	12902	56373
+PMC12917924__F2	Molecular mechanisms by which lactylation promotes colorectal cancer (CRC) cell proliferation	13628	27374	12417	67773	28114	271221	22034	12387	268420
+PMC12917924__F4	Mechanisms by which lactylation drives immune evasion in colorectal cancer (CRC)	100102	17319	56335
+PMC12922120__F6	Integrated model of angiogenic effect of miRs that are impaired by hypercholesterolemia in EVs within ischemic muscles	66262	22346	236511	19211	56717	15258	15251	21812	17126	17127	22034	108314	17128	15139
+PMC12925938__F4	Acquired resistance mediated by cGAS-STING pathway activation(A) cGAS-STING pathway activation can lead to the upregulation of immune checkpoint molecules	21926	110279	100604	381319	229317	12028
+PMC12928064__F2	Impact of diet on modulation of autophagic pathway	93759	15251	56717	22241	51897	68118
+PMC12928064__F3	Impact of exercise on modulation of autophagic pathway	93759	22241	51897	68118
+PMC12930516__F3	Proposed Cyclic Pathway for the Fucose Transfer Catalyzed for FUT8	18299	53618	104124	19066
+PMC12937674__F1	Integrated overview of interconnected mitochondrial dysfunction pathways in renal IRI-AKI	11697	93759	12643	81897	214763	216799	74143	75788	72018	21425	21780	18181	75734	68943	12176
+PMC12937674__F4	Mitophagy is primarily mediated through two distinct pathways	264895	75788	68943	72018	56717	18294
+PMC12938048__F3	SPP1+ TAMs in tumor progression	20750	104272	12558	12550	12977	12978	12768	12778	13349	12505	11622	16173	83433	12262
+PMC12938460__F2	Hypoxia-inducible factor-1A (HIF-1A) regulation and downstream signaling under normoxic and hypoxic conditions	18299	15251	13856	16828	12176	109807
+PMC12938460__F3	HIF-1A signaling and ROS upon low oxygen (hypoxia)	15251	117211	18299	103984	109807	103957
+PMC12939826__F2	Current and emerging therapeutic strategies targeting leukemic stem cells in AML	12489	109940	16423	19261	21948	12767	214162	15405	208266
+PMC12943087__F1	Schematic overview of the metabolic crosstalk between the intestine, liver, and skeletal muscle in regulating intramuscular fat (IMF) deposition	104371	17681	11770	14089
+PMC12943864__F5	Integrative schematic linking key signaling pathways and intervention points of fibroblast-targeted NDDSs	12028	17126	17127
+PMC12943864__F7	Fabrication and mechanism of GML for enhanced wound repair	20693	625599	19353
+PMC12944546__F1	Psoralen and Isopsoralen from Psoralea corylifolia Suppress NSCLC by Dual Mechanisms: STAT3 Inhibition and ROS Modulation	20779	20848	17395	15251	21417
+PMC12952897__F3	ISR outcomes and therapeutic implications in stem cell biology	229317	11911	107503	56717
+PMC12955992__F9	VitD regulates synaptic protein expression through VDR‐mediated transcriptional and translational control mechanisms	22337	12217	13684	20614	20977	20964
+PMC12959284__F1	Ginsenoside Rg1 regulates mitochondrial quality control	66437	75734	74143	68943	21780	16573	66196
+PMC12960602__F6	Natural chemical metabolites and formulations improve CKD through the mitochondrial pathway	64384	93759	170731	67414	12028	21898	56717
+PMC12963059__F2	HPV and EBV synergy in potentially inducing the Warburg Effect	22346	17869	16828
+PMC12964005__F1	Factors influencing the exhausted state of NK cells	12504	21803	100043314	14121	17131	17127	15902	16363	56717	12506
+PMC12964585__F2	Mutations in PDGFRA promote the proliferation and metastasis of tumors	18595	14784	19412	17395	212541	56717	12540	12567	12571	12566	12534
+PMC12965064__F2	Application of LIPUS in anti-inflammation and repair at the biological and molecular level	12064	17126	17127	17128	15251
+PMC12965250__F3	Effect of other HBV proteins on NFKB pathway	24088	17874	224111	269523	19698
+PMC12966297__F3	Conceptual diagram of metabolism-epigenetic interactions in thyroid cancer (TC)	15926	108037	19211	12550	67493	14104	22095	12387	16828	18655	14835	109550
+PMC12966699__F11	Potential mechanism of OA ameliorating central cognitive impairment	12647	11423	11358	19412	12064
+PMC12966756__F2	Interaction between Hippo and VHL pathway	18016	15235	64010	212531	16798	212541	22346	20439	22601	13730	50490	232431	13856
+PMC12968001__F1	Simplified overview of p53 biology and its regulation in cells with wild-type p53 and mutated p53	11920	245000	17248	17246	16452	20848
+PMC12968001__F2	Therapeutic landscape in TP53-mutated AML	12043	17246	12489	20963	14255	16180	12028	16423	16187	19261	19886
+PMC12969006__F1	Attributes of radioresistance associated with C5aR1 and the cGAS/STING pathway in colorectal cancer(A) The immunosuppressive tumor microenvironment (TME) persists following radiotherapy in CRC	214763	16193	16153	56480	16768	12477	15978	15945	20304	16183	54131	20846	15977
+PMC12969104__F1	Proposed model of HMGB1 signal transduction pathway in cardiovascular diseases	15289	21898	12767	20315	17874	111343
+PMC12969153__F4	Exposure to PM2	19353	12476	22018	21819	18510	110805
+PMC12970185__F11	GA in alleviating cerebral ischemic injury	21898	117149	17874
+PMC12972429__F7	Ketogenic diet enhances LTP, synaptic plasticity, and cognitive functions in female APOE4 mice via systemic inflammation reduction and CREB-dependent gene expression remodeling	13488	18299	21926	20304	109912
+PMC12975386__F1	Canonical and noncanonical STING signaling	54131	56480	214763	56717	11793	77040	109305	22334	22368	20866	229317
+PMC12979313__F2	Exosome biogenesis pathways - The schematic illustrates both ESCRT-dependent and ESCRT-independent mechanisms of intraluminal vesicle (ILV) formation within multivesicular bodies (MVBs)	106572	12527	69202	20237
+PMC12979313__F5	Molecular regulation of exosome biogenesis and cargo selection - Exosome heterogeneity arises from coordinated molecular pathways	22088	15239	20844	69202
+PMC12980039__F8	The role of EV-derived VDAC1 in mediating PTX resistance in GC	22333	22241	56717	29869
+PMC12982759__F3	Network pharmacology of rhubarb active ingredients-targets-acute pancreatitis: Genes linked to the neural active ligand-receptor pathway will align with rhubarb’s active ingredients and drug targets	11555	13488	15558	12669	12671	18747	18126	18750	243764
+PMC12984733__F10	Intergenerational hepatic effects in F1 offspring induced by paternal ZEN exposure	21813	20249	14104	104112	50868	18024	21819
+PMC12985795__F2	Endotype-aligned workflow linking murine induction paradigms to pathway modules and standardized readouts for causal inference in CRS/CRSwNP-like studies	14462	12387	12550	20852	22352
+PMC12991028__F6	Nanotechnology-based targeted delivery strategies for the treatment of Alzheimer's disease	12011	56717	22241	16784	195727
+PMC12998042__F6	NAMPT-enriched EVs confer superior mitochondrial recovery compared to EV-GFP in both in vitro and in vivo models of cisplatin-induced tubular injury	59027	64384	20656
+PMC13000935__F7	Biological pathways affected by IGF-1c	171281	13077	16956	67732	19941	104135	19889	11835	319158	16210	18791	666168	12140	107423	18517
+PMC13005559__F5	Glycolysis in cardiomyocytes is upregulated in the oxaliplatin treated mice	103927	17236	18655	15275	15277	212032	103988	14751	18648	56012	14120	13808	13807	13806	230163	11674	21991	14433	16828	18746	16832
+PMC13022922__F9	Zuo Gui Wan Promotes Remyelination in Multiple Sclerosis by Attenuating MAPK-Mediated Microglial M1 Polarization, an Integrated Network Pharmacology and Experimental Validation Study	242939	12524	111343	16193	17441	16173	16153
+PMC13032391__F4	Boxplots depicting the distribution of expression for different ribosomal protein L isoform coding genes (RPLs) with FDR ≤ 0	67025	270106	22121	319195	19921	104253	67186
+PMC13045217__F1	Synergistic Activation of Immunogenic Cell Death and the cGAS–STING Pathway by Engineered Zinc/Manganese‐Based Metal–Organic Framework Nanoplatforms for Colon Cancer Immunotherapy	17418	54131	56480	214763
+PMC13066261__F6	Glabrol exerts toxic effects through the activation of the AP-1 signaling pathway	244209	13081	13115	18194	223920	73166	13360	13121	14137	17389	17391	17395
+PMC13068818__F6	Network analysis of significantly enriched KEGG pathways in Ogg1Tgskeletal muscle	243958	16452	15170	12517	12507	12515	20343	12124	12478	19354	21844	22324	272382	242248	209027	17768	56454	228775	50932	73086	108156	107272	12482	14128	108037	236539	12483	116872	15001	12518	72049	27053	15002	12902	12504	21874	140781	100041585	27218	14419	15162	18263	19264	17869	112364	15945	12458	14863	22778	71520	22637	328795	16785	20115	56347	70683	20042	20116	13685	20102	67186	267019	78294	83814	15925	624713	30877	269261
+PMC13076654__F8	Proposed models for caspase-11-mediated regulation of osteoclastogenesis	216799	12362	111343	69146	18018	11545	232790	13038
+PMC13077504__F6	Estrogen Regulates Endometrial Autophagy through Hippo Pathway Kinase STK4-Mediated LC3B Phosphorylation	51897	67526	11793	74244	66795	67841	11763	58231	56274
+PMC13078181__F4	NR4A2 induces a Warburg-like metabolic reprogramming in the mouse heart	14193	16828	55951	70456	12266	12974	17448	104112	66945	67680	66052	66925	11429	18293	11428	15926	14718	14660	269951	67834	15929
+PMC13081538__F4	NOD-like receptor signaling pathway identified via KEGG pathway analysis of differentially expressed genes	257632	16391	12363	20846	54721	69146	215999	12364	67724	106512	14082	210766	54131	228607	216877	19200	56338	106821731
+PMC13089630__F7	Ingenuity Pathway Analysis (IPA) revealed that the dysregulated genes were associated with HIF-1A signaling and lung lipid metabolism, as well as with IL-15 and B cell receptor signaling in ENDS-exposed male and female mice, respectively	12870	238055	17175	18300	16816	54615	12165	237611	100689	109660	241324	93701	241128	104368	54137	380795	16994	11535	93710	619310	216984	14618	13996	64540	16178	224661	68790	17221	26434	14404	11801	574402	74563	13869	210198	232414	75209	665407	403183	100628593	14089	53376	12372	214987	14419	68616	100043391	53608	223920	751525	433502	12173	74574	229599	21389	381232	319552	20183	13170	18628	14260	18143	18627	217082	53417	270109	15364	319317	69069	17395	17394	223780	15458	23886	20310	11839	20297	15508	26570	15251	56619	245126	12765	22437	100038659	215493	11519	20862	20202	19782	15511	103949	241452	15507	103948	15505	79565	394436	242125	72693	68051	14283	77011	67855	245607	100302592	107423	654812	24047	50498	12902	228801	434025	242662	69169	52614	100043861	20319	64380	320974	20201	635702	19334	69568	13587	404743	100043346	320558	14025	621239	18000	78376	11629	268709	170930	631037	236047	75083
+PMC13092492__F7	Working model	13543	11789	12359
+PMC13096157__F5	The AKT/P53 signaling pathway by translated control tumor protein inhibits apoptosis and promotes hyperplasia of the mammary glands	12028	12443	12567	12571
+PMC13099944__F7	Schematic depicting the canonical and non-canonical mTORC1 and necroptotic pathway	56717	21926	64930	14082	12370	74568	13684	20393	22241
+PMC13106906__F4	Pathway enrichment for the 69 proteins significantly less abundant in DKO cerebral cortices	11576	11625	22139	67199	26913	104001	70025	20340	12716	20239	99512	12661	11657	18717	22041	104318	69605	66144	19652	22628	353190	20616	20979	26949	17762	225362	30948	22151	20964	20965	17957	23969	52589	11464	22153	17754	216963	13429	54161	213827	104069	226180	18194	20740	14432	192156	13121	19283	20742	16728	13004	232975	239857	110196	15078	109676	83397	21923	29873	54725	11931	319504	15081	319150	18163	13003
+PMC13113594__F8	2R,3R-trans-dihydroquercetin (DHQ) in the response to ionizing radiation at the molecular and cellular level	109807	11920	19153	50868	245000	12367	106821731	12359	108138
+PMC13118965__F7	Schematic diagram illustrating the proposed mechanism of LGZG in ameliorating HFD-induced MASLD via the gut microbiota–non-12-OH BA–TGR5 axis	107418	104086	13123	76585	73730	14170
+PMC13139982__F4	TransPath-C identifies consistent pathway regulation across mouse and human platelet proteomes	18604	27402	13838	16193	18597	68263	381511	235339	319518	236900	228026	104112	12974	17448	17449	11429	11428	14193	15926	269951	104253	67834	67680	66945	170718	15929	20917	56451	78920	13382	20916	18293	12988	19247	17096	16822	14722	57257	11461	19353	14127	20963	14360	16797	234779	12229	11652	13138	18750	18751	21894
+PMC13144330__F0	RRx-001 inhibits G6PD to deplete NADPH and trigger disulfidptosis coupled with DAMP-mediated immunogenic cell death in hepatocellular carcinoma	26570	17254	14722
+PMC13148413__F5	Cellular antioxidant defense systems	20514	26570	625249	14629	14630	74199	99138	14528	13360	50868	12013	26554	106821731	109807	14319	22274	229317	11911
+PMC13173803__F8	The mechanism underlying PSNP-induced hepatic lipid accumulation	56717	20185	74205	12894	11430	208715
+PMC13180513__F7	Mechanisms through which disulfiram combined with copper (DSF/Cu) mediates signaling pathways in pancreatic cancer cells	20848	18024	15251
+PMC13182861__F9	TNFAIP3 in M2 Macrophage Attenuates Subretinal Fibrosis in Laser-Induced Murine Model	21929	78912	13595	11846	21803	66646
+PMC13190064__F6	Dual anti-inflammatory and antifibrotic action of binimetinib in pulmonary fibrosis	17126	17127	17128	19412	20846	20848	11816
+PMC13203827__F11	The Mechanism by Which Empagliflozin Inhibits Ferroptosis and Ameliorates Diabetic Cardiomyopathy via the SIRT3-p53/SLC7A11/GPX4 Pathway	64384	11358	26570	625249
+PMC13211340__F4	“Epimedium-Target-Pathway-Immunomodulation” Network	26357	11350	11421	11423	11622	11491	58810	11651	11792	11689	11835	26380	11820	12638	13077	12765	227288	14061	14089	11846	26362	23821	12048	12310	12273	12494	12768	12371	12773	12660	12801	12802	12387	93687	13030	13032	13033	13040	14066	225192	16476	18970	21898	21752	170743	170744	81897	21926	15251	15465	15466	16451	16453	16542	26395	26409	17161	26416	17393	26414	17392	17395	26413	17390	26417	18439	18569	18390	17523	11545	18387	18126	14815	59027	67111	56717	18386	18667	18577	30955	18707	18792	18950	64292	19016	18751	19219	19204	19217	18761	19090	18750	14083	19697	110157	19885	111174	20440	20963	21336	20779	269523	69635	13617	13489	14255	14225	109801	15519	15562	22027	13866	13649	14645	15185	15162	227289	13982	16818	19141	240028	13162	13610	12257	21937	22139	22339	22436
+PMC13224335__F1	Diverse mechanisms of therapeutic resistance in glioblastoma integrate tumor-intrinsic pathways, metabolic adaptations, and microenvironmental barriers	17314	15251	12767	15234	11920	19211	13649	56717	20296	12977	16153
+PMC13228072__F12	Signaling mechanisms underlying aberrant vascular remodeling in the uterus after DENV-2 infection	20750	12505	20310
+PMC13236778__F7	PPI networks	56464	16149	11691	21940	66147	13528	14072	23879	111654	230979	14827	12631	227753	14293	22029	21354	11465	665113	11763	68729	21939	22030	12675	12042	109950	13057	18754	17698	22376	109615	17970	109929	12229	22323	18595	17000	12402	14026	20779	12143	217682	78294	75788	67333	107418	18491	11854	12540	18762	12506	16822	71994	110279	16797	111334	12491	384783	16483	20416	16428	14360	12988	17973	16590	17096	108989	84004	20963	20662	16818	15258	20130	18706	16453	18709	217232	14119	22325	66905	19066	17260	14102	17254	22141	84585	20615	18747	13649	19280	22145	12223	20418	13710	57296	104394	14158	110310	50915	12504	18035	70497	12550	16000	14673	11421	14697	14688	107739	67298	14527	64337	14701	14693	14683	16866	16001	20617	11835	14682	16867	13617	14672	13645	16591	18751	71520	11836	16396	12801	19704	70640	12928	20054	326622	72544	69639	50912	233789	15461	26440	12929	11820	13605	20850	19167	14600	16409	12500	245616
+PMC13247212__F1	Self-assembly, structural transformation, and targeting of intracellular bacterial action of the designed peptide nanoassemblies	16992	111346	272382	625249	50790
+PMC13272107__F7	Working model	16971	68646	209027	19125
+PMC13277021__F1	Lipid metabolic reprogramming and its interaction with oncogenic signaling in cancer	16653	100102	12491	11789	56717	12896	14104	16835	104371	15357	104112
+PMC13282975__F4	ILC2s rely on diet-derived nutrient and micro-nutrient cues to regulate their metabolism and phenotype	18299	14462	15251	16598
+PMC13298207__F6	Proposed mechanism by which resistance training increases muscular oxidative phosphorylation gene expression and reduces systemic inflammation to potentiate anti-TNF therapy in IBD	17710	17718	17717	17719	17716	17706	17720	17705	17708	17709	17721	17711	111343	20201	17395
+PMC13309392__F5	Interaction networks for the six primary colour‐coded modules were constructed to resolve the regulatory architecture	13885	69606	13364	18106	19934	20042	100042388	20103	21753	74490	20055	12399	67427	66475	55934	12516	19880	268958	68052	20085	20115	382090	77889	75617	215114	216148	12189	15461	70315	26413	319504	12914	15184	26416	12572	24074	11651	17420	21374	15183	18747	99730	12675	226182	66420	66464	328572	12865	22177
+PMC13317339__F6	Multi-pathway reprogramming of endothelial plasticity in diabetic heart and aorta	20672	11770	106821731	16598	22339	16542	15505	193740	15507	23917	15251	16011	11863	54123	194655	14268	11475	20677	22352	76453	57875	18591	20971	71785	12827	16177	20846	14825	21813	13604
+PMC13320343__F6	Host and microbial pathways of tryptophan metabolism	18299	98256	70789	11298	11622
+PMC12184365__F8	PARP12 provides a checkpoint for apoptosis and necroptosis and IFN responses	243771	15978	19766	14082	56532	58203	12362	16896
+PMC12215039__F8	Illustration of the effect of BRL treatment on a murine model of allergic asthma with co-exposure to OVA and LPS	17833	11622	111343
+PMC12237568__F7	DKK3-Driven Immune Modulation Combined with Checkpoint Blockade enhances antitumor immunity in pleural mesothelioma	50781	111654	12977
+PMC12245909__F1	Homeostatic control of the complement system and mononuclear phagocytes by sialylation	14419	66646	12266	14193	21911	17189
+PMC12246772__F5	Astrocytes inducing motor neuron damage through the TRAIL‐DR5 pathway	14082	74568	69146	12043
+PMC12258057__F1	The purine nucleotide cycle in relation to the tricarboxylic acid cycleA schematic representation of the pathways with major metabolite structures addressed in the present study	18299	11564	109807
+PMC12260538__F9	Mechanisms by which STING regulates NETs formation via the activation of GSDMD in viral pneumonia	54131	69146	21926	18462
+PMC12309935__F3	Transient receptor potential channel subfamily M, member 6 (TRPM-6) gene encodes for a magnesium-selective ion channel that facilitates the transcellular reabsorption of magnesium from the urine	109559	13645	13649
+PMC12310468__F1	Process of cell apoptosis	12028	14102	71609	14082
+PMC12310468__F3	ApoBDs action in diseases	14124	16971	23849	26362	12005
+PMC12310638__F5	Glycine/serine/tryptophan metabolism	140486	625249	11911	14660	107272	59027	236539	102636218	56720	209176	15930	17263	14284
+PMC12311293__F1	Biocompatible exosomes derived from Pinctada martensii mucus for therapeutic melanin regulation via Alpha-MSH/NFKB/MITF pathway	12011	24010	17342	22178
+PMC12311307__F2	Targets on the surface of NEPC cells	12672	18049	20878	72147	73250	11545	13389
+PMC12311307__F3	Targets of cell surface receptors on NEPC formation	20878	19412	11835	19645	19211	20674	68955	14056	15376	15375	17172
+PMC12312347__F7	Main findings of this study	17681	20905	12512	12527	12571	56717
+PMC12313545__F7	Exogenous Nucleotides Supplementation Attenuates Age‐Related Sarcopenia	17748	50781	56717	14066	67731	433766
+PMC12315692__F8	Proposed PSAT1 induced molecular and metabolic signaling pathway in cardiac repair	107272	22601	111346
+PMC12320502__F8	SBSPON action in bladder cancer cells	14828	226866	21911	11911	12550	12558
+PMC12320883__F5	Major mechanisms of immune regulation by regulatory T cells and mesenchymal stem cells	12487	14102	14103	17681	11789	12524	12519
+PMC12323717__F2	Molecular pathway connecting COVID-19 and anxiety	16183	21898	22353	19016	16176	12310	16846	15978	21926	19225	16171	11421	18791	16193	20296	13482	16153
+PMC12325489__F6	NLRX1 working scheme	14072	12263	12679	12266	270151
+PMC12329558__F8	Conditional deletion of TRPC1 channel modulates synaptic plasticity, long term depression, and memory extinction in Fragile X syndrome mice	11838	13629	22063	22067
+PMC12343526__F0	Quercetin’s anti-fibrotic effects through the FSTL1/NFKB pathway	14314	12144	12558	12550	111343
+PMC12344368__F1	Core signaling pathways regulating cancer stem cell (CSC) properties	11789	19206	319757	17128	56717
+PMC12345184__F11	Proposed mechanism through which EV71-induced cytosolic Ca2+ elevation affects the virus life cycle through SOCE activation and mitochondrial Ca2+ influx	109305	20866	215999
+PMC12347271__F1	 The PI3K complex, Akt, and mTOR pathways are essential for follicular activation	19211	228026	56717	64930
+PMC12347271__F3	 DNA damage leads to the direct apoptosis of PMFs, resulting in the depletion of the follicular reserve	245000	11920	12028
+PMC12347271__F4	 The alkylating agent disrupts PTEN, leading to the overactivation of the PI3K signaling pathway and an increase in the phosphorylation of key proteins, Akt, mTOR, and FOXO3A, resulting in accelerated PMFs activation	19211	109555	228026	56717
+PMC12351400__F6	Schematic diagram illustrating the mechanism of anti-inflammatory action of MET during the development of apical periodontitis	11763	56717	21926
+PMC12383533__F4	Activating insulin-induced receptors initiates two major signaling pathways: Ras/MAPK and PI3K/AKT	19412	14784	18576
+PMC12394449__F5	MMTS network	16193	109833	11651
+PMC12395648__F3	MSCs mitochondrial transfer–mediated immunoregulatory network	56717	17681	20371	15251
+PMC12395696__F9	MMDD and its principal active constituent, OP-D, alleviate pulmonary fibrosis through targeting lung fibroblasts	17126	17127	625249	26570
+PMC12395823__F7	Protein‒protein interaction networks of pathways influencing (A) ion channels and membrane potential, (B) sensory perception, and (C) neurotransmitter transport and regulation on day 14 post-OFBI	80908	20237	104242	20964	21823	117223	217143	20028	19066	19888	104044	14404	12968	235415	12970	12328	111359
+PMC12395874__F8	Graphic abstract	109776	11595	17386	23794	111343
+PMC12399009__F2	Multifaceted protective mechanisms of HIF-1A in pulmonary epithelial cells	14235	15251	14102	14103
+PMC12399888__F1	CELMoD agents redirect the CRBN pathway to degrade target proteins	13194	58799	17536	17869	16364
+PMC12401865__F1	Canonical and non-canonical pathways triggering pyroptosis	216799	111343	69146
+PMC12401865__F2	Pyroptosis in periodontitis	53791	21897	21899	24088	17874	170743	81897	142980	16193	21926	20296	12524	12519
+PMC12401865__F4	Macrophages response to bacterial products in pyroptosis	111343	69146	268973	216799	66824	16176
+PMC12402400__F8	Tn‐R exacerbates AB pathology via Nav1	11820	15439	23821	12346
+PMC12403445__F10	Aging and oscillatory shear stress induce atheroprone EC metabolic reprogramming	16598	170768	105787	15251	12114	17983
+PMC12403445__F7	Shear stress-mediated mechanotransduction pathways in regulating EC metabolism and phenotype	16598	16600	15251	93759
+PMC12404022__F1	DNA damage repair by the FA pathway	101831	104806	237211	14087	14088	72775	100040608	60534	67030	211651	208836	14072
+PMC12404258__F10	MagO exerted its inhibitory effects against the epithelial barrier damage caused by 5-FU	20181	16452	18706	12028	111343	13142	21926
+PMC12406714__F1	Loss of uracil DNA glycosylase (UNG) activity leads to persistence of uracil (U) and 5-fluorouracil (FU) bases in DNA	22256	11763	109719
+PMC12406719__F2	Proposed drivers of complement activation in long COVID	12266	108314	22371	279028
+PMC12407304__F1	NIR Driven Pd/Cerium Oxide Nano‐Heterojunction for Enhanced Salvaging Sepsis Induced Acute Liver Injury via Reprogramming Redox Homeostasis in Synergy with Inducing Autophagy	12870	18299	18024
+PMC12407349__F11	Activated calcium‐related signalling pathways and mechanosensitive transduction pathways that promote osteogenesis in the presence of piezoelectric material and incorporated mechanical stimuli	11697	21977	18422
+PMC12408198__F6	Proposed mechanism by which trans-resveratrol and hesperidin supplementation (tRES-HESP) combined with aerobic exercise ameliorates methylglyoxal (MGO)-induced skeletal muscle atrophy	18299	93759	56717	17126	17127	111671
+PMC12409231__F4	Graphical abstract summarizing the mechanism of mitophagy in NAFLD	21675	67003	68943	56717
+PMC12410837__F1	Anatomy of brain-body communication	12918	22044	13851
+PMC12415433__F3	Targeting the tumor microenvironment	20371	12477	12494	15251	11486	104272	108655	22174	212541	17395	26362	56044	14456
+PMC12421728__F7	PRPK mediates solar UV–induced photocarcinogenesis by mediating PD-L1 expression and enhancing CD8+ T-cell infiltration	17869	16193	22339
+PMC12439679__F7	Network analysis of differentially expressed genes in decidualizing HESCs altered by HF	13867	71785	18595	16000	13179	21675	15234	21803	111507	21808	22339	17965	14173	18596	12579	18049	56458	22341	21687	20217	14599	13130	19109	320202	12011	55994	16002
+PMC12452550__F2	Central illustration: Integrated molecular pathways underlying thoracic aortic aneurysm and dissection	13717	18822	12111	14430	72136	22330	21826	192176	207596	50997	216725	21823	27421	19066	107589	69227	170441	17022	20692	16948	77794	108154	21808	56490	11906	21813	59024	16905	224697	11472	18128
+PMC12462951__S1	Mechanisms of RegoNeo induing antitumor immunity in MSS‐CRLM	110080	19735	20315	12767	16149	17319	14939
+PMC12472827__F6	Clinical utility of GFAP as a biomarker in TBI and AD	104253	14580	103984
+PMC12477335__F3	Functions of NOD2 during mycobacterial infection	257632	24088	27056	111343	111654	21926
+PMC12477335__F2	Activation and signaling pathways of NOD2	257632	22030	77040	54131	226641	228607
+PMC12478254__F8	FBXO45-driven HCC metastasis	21787	11909	268882	56717
+PMC12479129__F8	Graphic illustration on the role and mechanism of NAT10 in regulating tumor progression and immune microenvironment in PDAC	17960	16780	60533	12487	104299	15978	18646	20779
+PMC12482215__F4	Dose-dependent dual-mode mechanism of QHD in MASLD	12894	22433	20848	16452
+PMC12484856__F1	 Chemical structure of the oral senolytic drug series Nutlin and delivery pathway of N201-gal to retinal pigment epithelial (RPE) cells	18299	66646	17246	14419
+PMC12486141__F7	Osteoblasts subtye-derived EVs aggravated subchondral bone remodeling in OA progression	12387	24117	68943
+PMC12487352__F2	Ingenuity pathway analysis (IPA) of the Neurogranin (Ng) binding proteins	18674	15511	193740	11461	433809	76763	22625	19130	212541	213539
+PMC12499391__F1	Targeted Therapy with Lectifitin‐36 and Lectifitin‐41	70008	21926	14825	111343	20310	20296
+PMC12511986__F1	Centromere dynamics in the germline and embryonic development	14836	109741	20237
+PMC12513789__F7	HTR2B-Mediated Endothelial Protection: Modulating Ferroptosis via the PI3K/AKT Signaling Pathway in Atherosclerosis	26570	15559	625249	18299
+PMC12524082__F8	CES1 mediated fatty acid esterification	19016	11520	14311	21819	104086
+PMC12539222__F12	The potential mechanisms underlying combined BET and CDK4/6 inhibition	12567	17127	22352	12387
+PMC12540272__F3	RBPs and miRNA sequences in the regulation of miRNA sorting into exosomes	51810	22608	20848	100316779	53379	20133	20135	100499518	15382	240396	12306	78388	19317	233908	14265	110809
+PMC12558625__F2	AMPK-mediated (blue) and MTOR-mediated (red) anti-aging signalling pathway	16000	56717	22084	64930	93759	13629	75705	13684
+PMC12561219__F10	Schematic presentation of the role of USP45 in melanoma cells	211577	77593	56717
+PMC12576909__F2	Possible mechanisms by which fibrinolytic factors promote cancer progression and metastasis	18815	15234	16971
+PMC12577446__F3	TREM2-mediated signaling pathways in microglia modulate AD-related inflammation	83433	20963	21898	11816
+PMC12580639__F6	Proposed mechanism of synergistic anti-obesity effects of potassium and GC complex	14473	14102	22227	66950
+PMC12580913__S1	Investigating the utilization mechanism and kinetics of sialic acid mimetics in mammalian cell lines	50798	74091	94181	67311	12764	20905	24060	23956	235504	18010	241159	50877	14419
+PMC12585994__F7	The molecular mechanism underlying UVB-mediated protection against IVDD progression	50868	111343	69146	17392	23794	216799
+PMC12591086__F3	Protein network clusters and pathways enriched by differentially expressed genes in G2 liver (male)	12702	110355	18751	18753	53322	56278	18718	11606	19268	17977	20779	18479	98496	22084	237542	108083	69178	17978
+PMC12591229__F5	Action of wound healing and antitumor effect of AGE	21947	21977	13857	243469	777655	100126226	16682	406222	16670	64818	665998	69664	18423	435273	69533	85030	110279	214523	69540	24102	194597
+PMC12592191__F8	rBCG-LTAK63 orchestrates early protective responses mediated by cAMP/PKA/HIF-1a pathways inducing autophagy and enhancing IFNG responses and circadian rhythm regulation of pathology	11358	18227	12772	18626	15251	654824	213393	20893
+PMC12605972__F1	The proposed mechanisms underlying RSV‐related anti‐ferroptosis in PD	104167	14319	625249	93759
+PMC12607557__F1	Host–microbiota co-metabolism of aromatic amino acids: tryptophan (Trp) and phenylalanine routes to neuroactive and redox-active metabolites	70789	98256	67375	266645	11298	107626	108909	12846	18478	21823	13130	18948
+PMC12608139__F15	Protective Effects of Velvet Antler Polypeptides on Cyclophosphamide-Induced Myelosuppression in Mouse and Bone Marrow Mesenchymal Stem Cells	15205	18128	19211	12028
+PMC12608177__F9	Steamed Panax notoginseng Saponins Ameliorate Cyclophosphamide-Induced Anemia by Attenuating Gut-Liver Injury and Activating the cAMP/PI3K/AKT Signaling Pathway	11358	14835	109550
+PMC12617664__F8	Identification of downregulated pain signalling pathways in nerve terminals	15469	20639	22608	13211	67264	66495	17991	68375	66046	226646	68349	72900	17995	12862	12867	12859	12293	12297	12292	20190	76757	57339	66397	110379	26908	20044	67186	69162	19205	270106	59022	69608
+PMC12631858__F8	PDZK1 Protects Against RPE Senescence by Targeting the 14‐3‐3E‐mTOR Axis to Attenuate Early Diabetic Retinopathy	13399	66646	59020	56717
+PMC12631940__F8	Mechanisms involved in hepatocyte‐derived angiotensinogen (hepAGT) contributing to HFpEF	14461	223775	14725
+PMC12632312__F19	Proposed mechanotransduction mechanism underlying pressure-induced chronotropy	18803	101772	11763	13876	13885
+PMC12643501__F11	Molecular interactions between dysregulated spatial proteomics proteins’ biological processes and related pathways	16001	12389	20779	16478
+PMC12655664__F7	VDAC1 Intervention Alleviates Bisphenol AF-Induced Succinate Metabolism Dysregulation and Inflammatory Responses	22333	16156	109643
+PMC12660504__F1	MiRNA‐mediated regulation in key biological processes	19211	18569	14103
+PMC12664492__F1	Research Design	12679	18299	11423	12647	211488	107482
+PMC12678513__F0	Cytotoxic and proapoptotic effects of alizarin in mice with Ehrlich solid tumor: novel insights into ERAlpha-mediated MDM2/p-Rb/E2F1 signaling pathway	17246	12028	13555	12367
+PMC12678834__F1	Neur and NEURL proteins in ligand-dependent activation of the Notch pathway	225164	240055	17153	13388	17418	54485	16449	16450
+PMC12682748__F8	Mechanism underlying MEKi+RT treatment-mediated activation of anti-tumor immunity	15945	16653	11920	56480	214763
+PMC12691738__F4	CCK-BR-KO in murine PSCs on genes affecting the pancreatic tumor microenvironment	12767	17869	19412	20848	12015	15251	12043	19225	20750	17390	60533	12633	14102
+PMC12691738__F6	Differentially expressed genes (DEGs) found between untreated and proglumide-treated human pancreatic stellate cells	13040	14257	12190	72333	17128	50523	17395	19713	19211	16653	17869	19225	12578	17829	22171
+PMC12692487__F2	Inflammatory pathways in myocardial infarction affected by obesity and related disorders	56637	12285	20848	20296
+PMC12699140__F7	This study	17681	59027	93759
+PMC12700517__F6	Gln metabolism remodels macrophage functions and atherosclerotic lesions	20540	216456	11358	16189	14835	109550
+PMC12702302__F1	Scheme of the synthetic procedure and piezocatalytic anticancer of GO/BCT:Mn MDM	22277	111364	11697	18299
+PMC12709085__F0	Dendrobine promotes bone formation via the canonical Wnt/Beta-catenin signaling pathway and prevents postmenopausal osteoporosis	17681	12387	12393
+PMC12710303__F7	Primary molecular mechanism through which NaB inhibits CRC	110080	111343	20296	17874
+PMC12724302__F7	CLT-003 inhibition of HIF-1A translation by blocking the PI3K/AKT/mTOR axis	117211	17750	15251
+PMC12752551__F9	RFWD3‐mediated pro‐tumor immunity	214763	54131	21848	11622	107844	22040	234736
+PMC12756878__F2	SUIT reference protocols RP1 and RP2	19888	19889	104193	14722
+PMC12765227__F6	Proposed model: KHK regulates ER proteostasis by promoting IRE1A–XBP1-mediated adaptation and suppressing PERK–CHOP-driven apoptosis	109559	16548	226641	22433	229317	11911
+PMC12784964__F6	Signaling Pathways Regulating BAK/BAX-Dependent Apoptosis and Necroptosis, and Targeted Pharmacological Strategies	12043	19211	17210	12015	12028
+PMC12789597__F7	Graphical summary. SIRT6’s conserved role as a regulator of tryptophan metabolism	20539	104253	56720	11298	98256	50721
+PMC12790122__F17	Mechanism diagram of regulation of colorectal cancer progression by glutamine via cyclin-dependent kinase 5	12568	20514	14661	20848	12387	12443	14056
+PMC12791033__F6	CLIC1 in focal adhesion signaling pathways	11848	22323	16202	13731	19211	14072	16476	214547	13708	12015
+PMC12791033__F3	Correlation networks of upregulated and downregulated genes in the TAC model	241794	20271	12296	12288	114584	16527	20928	22335	100040591	12293	240444	29876	16518	11938	224796	16513	12723	11928	102566	14609	12292	98660	22333	16511	11931	20191	16514	22334	20541
+PMC12791033__F8	Correlation networks of CLIC1, CLIC4, and CLIC5 with focal adhesion, actin cytoskeleton, and fibrotic remodeling in the TAC model	74117	243764	67771	170736	21828	68089	12631	214230	22323	76709	12632	16202	60595	66713	18176	13800	17698	16412	109711	18481	56637	114584	12826	29876	12540	224796	12391	19045	16402	18643	215449	13731	17886	22330	22793	11848	21808	12816	11472	12827	12830	230899	18158
+PMC12795308__F3	In normal physiological conditions little TBI and NTBI is filtered by the glomerular assembly and is reabsorbed and cycled by the proximal tubular cells (PTEC)	18299	50790	14792	11687
+PMC12801098__F3	Metabolic pathway perturbations in Ndufs4 KO vs WT hearts	17153	14072	12704	20223
+PMC12804022__F7	BA’s protective effects against hPDLCs apoptosis via modulation of ER stress	229317	11911	12028
+PMC12805404__F6	Sensory neuronimmune crosstalk in the skin and lung	193034	243979	233221	14767	56183	21336	16451
+PMC12807814__F6	EMX2-CADM1 axis as a tumor suppressor in renal cell carcinoma	13797	54725	11545
+PMC12814850__F10	Molecular mechanism of Sa induces salivary hyposecretion and pulmonary fibrosis in pSS through the ATF6–Myh9 signaling pathway	17886	226641	11830
+PMC12818902__F7	CARD11 is required for maintaining p100 protein levels by a post-transcriptional mechanism	21939	110279	17000	16990	19698	108723	22031	19696
+PMC12822004__F9	Association between microbiome and inflammation in the ocular surface of MGD	21898	17874	16179	22034	20296	16819
+PMC12822013__F0	PEBR is fabricated using a facile one-step ultrasonic method, generating stable squalene-in-water emulsion droplets	12359	246178	216799	109419
+PMC12830369__F2	Three isoforms of the BAF60 subunits (BAF60a, BAF60b and BAF60c) and BRG1 regulate lipid metabolism	22278	19013	12753
+PMC12831252__F7	Mechanistic Model of HIF2Alpha-Mediated GBM Malignancy	13433	20969	21808	228026	56717	13869
+PMC12834314__F8	Zbp1-mediated necroptosis induced by mitochondrial dysfunction and its role in inflammatory responses in alveolar macrophages during ALI	56532	58203	74568
+PMC12840178__F9	Exploring the Protective Effect of Gastrodia elata Extract on D-Galactose-Induced Liver Injury in Mice Based on the PI3K/Akt Signaling Pathway	11691	21926	111343	12028	12043	12359
+PMC12847157__F4	GPR44-Dependent Regulation of the Selenoproteome by eIF4a3 in Murine Acute Myeloid Leukemia-Initiating Stem Cells	14776	93684	192170	14775	114679	20364	27361	223776
+PMC12856966__F1	Selected ALS-mutated genes associated with autophagy	73205	56480	269523	16572	71648	13191	18412	54609	22145	56491	68942	74018	103199	20655	12449	17418
+PMC12866828__F9	Mechanism diagram	56717	20334	20223	56030
+PMC12874651__F5	Schematic illustrating the concepts of immunogenic cell death (ICD) and spleen-mediated reinforcement of the cancer immunity cycle through a combination nanocarrier strategy, as outlined in Figure  	20219	15289	170743	170744	17874	11789
+PMC12892016__F6	TRIM46 deficiency-induced DNA damage, enhancing the sensitivity of DDP in NSCLC by regulating Akt signaling pathway	22376	360213	19361	103984
+PMC12900663__F9	Meningeal lymphatic vessel dysfunction exacerbates brain injury in CVST mice via endoplasmic reticulum and oxidative stress pathways	229317	11911	111343	16193
+PMC12905648__F9	Rub ameliorates liver fibrosis by inducing metabolic reprogramming-mediated ferroptosis in activated HSCs through targeting CPT1A	625249	12894	50790
+PMC12917924__F3	Mechanisms by which lactylation mediates colorectal cancer (CRC) cell migration and distant metastasis	14763	14825	20311	22632
+PMC12922090__F2	HIF–SIRT1–mTOR interplay within immune cell metabolism	93759	15251	56717
+PMC12922784__F1	Three main complement activation pathways including the (A) classical pathway, (B) lectin pathway and (C) alternative pathway	12268	12263	12266	12281	12974
+PMC12922784__F2	An overview of extracellular complement activation	12944	12266	18815	109828	12274	12279
+PMC12925103__F1	Manganese on the cGAS-STING pathway and immune cells	17418	214763	12524	54131	12519
+PMC12925875__F4	CDs induced apoptosis (programmed cell death) is light-dependent, which can be categorized into two different pathways: intrinsic pathway and extrinsic pathway	12028	14082	12122
+PMC12925880__F4	Driver genetic alterations inducing AR reprogramming	17869	50528	13876	11835	12648	15375	19645	20747
+PMC12931205__F9	The role of skeletal muscle HSF1 in alleviation of age‐associated sarcopenia and mitochondrial function decline via SIRT3‐PGC1A axis	15499	64384	11358	104253
+PMC12937632__F3	The mechanism by which a CAR T-cell e	12478	109600	14102	14103
+PMC12937674__F2	Mitochondria in Renal Ischemia–Reperfusion Injury: From Mechanisms to Therapeutics	18181	21780	93759	21425
+PMC12943864__F2	Fibroblasts synthesize and secrete cytokines	18596	18595	14165	56636
+PMC12946347__F8	Anti-HCC effect of HEG via modulation of gut microbiota and its metabolite Equol through the gut-liver axis	27471	21682	12504	20296	12447	12566
+PMC12948265__F9	Molecular mechanism of WED‐mediated neutrophil differentiation via TLR2/MEK/ERK pathway activation	13595	24088	12608
+PMC12952897__F1	Integrated stress response (ISR) and senescence-associated secretory phenotype (SASP) in stem cell fate decisions	229317	11911	107503
+PMC12954528__F1	IP6 biosynthetic pathway	18299	69718	217837	75678	76500	27399	271424
+PMC12962111__F4B	Focused protein-protein interaction network highlighting key differentially expressed genes in mitochondrial function	68202	67184	66377	12867	13382	54405	13063	66142	66576	12864	13838	23829	16409	13380	12259	12260	13051	20312	16412	83433	12266	210933	12262
+PMC12962837__F1	Advances in IL-2 Family Cytokine-Based Cancer Therapies: Overcoming Challenges Through Molecular Engineering and Delivery Strategies	16451	16453	20846	20848	20852	12504	14939	20219
+PMC12963059__F1	Proposed mechanisms of HPV and EBV coinfection and their hypothesized collaborative role in oncogenesis	16600	21810	12550	13506	245000	11920	14599
+PMC12963059__F3	Proposed model: HPV and EBV coinfection synergistically targeting innate immune pathways to facilitate immune evasion	15976	15975	54721	53791	170743	142980	81897	24088	20846	20847	12640	54131	16391	21926
+PMC12963675__F2	Circular RNAs: Key Regulators of Tumor Metabolic Reprogramming and Clinical Translation	15277	17869	19412	225579
+PMC12963675__F4	Circular RNAs: Key Regulators of Tumor Metabolic Reprogramming and Clinical Translation	18299	16828	15277	14104	56150
+PMC12964005__F2	Tumor cells evade the immune system by reducing the recognition ability of NK cells	17128	17127	17126	13649	20848	100043314	52118	17086	17869	15469
+PMC12964005__F3	Tumor cells resist apoptosis mediated by Granzymes released from NK cells	14939	14082	14538
+PMC12964231__S1	BTZ-conjugated TiN NPs via reversible boronate ester bonds for synergistic unfolded protein response (UPR) activation through combination of proteasome inhibition and sonodynamic therapy (SDT)	18299	109807	22277	226641	11911
+PMC12964376__S1	Schematic diagram of the fabrication of FCMM for heterojunction-amplified sono-immunotherapy through activating tumor-specific cuproptosis and cGAS-STING pathway	54131	18299	15289	12504	107421	14148	79464	235339
+PMC12965219__F4	The splenic neural network and neuroimmune crosstalk	12918	11592	12854	16878	13851	109648	12504	111343	21785	12767
+PMC12966297__F4	Conceptual schematic of an integrated therapeutic strategy targeting the epigenetic-metabolic axis in thyroid cancer (TC)	12477	15277	17236	56717	20249	12894	12387	12567
+PMC12966756__F1	Hippo pathway	18016	15235	64010	16798
+PMC12966769__F3	Mitophagy dysregulation and diabetic bladder microenvironment: pathological feedback loop	20590	17127	15251	71648
+PMC12967251__F8	Molecular mechanism by which CXCL4 induces macrophage ferroptosis and aggravates cardiac injury in septic cardiomyopathy via activating the STAT3/P53 signaling Pathway	20848	26570	625249
+PMC12967970__F2	Action of EPO in erythropoiesis Schematic diagram: Classical and non-classical pathways	13857	16452	13856
+PMC12968251__F5	HIF1A executes a late-stage PPARGamma-dependent lipid storage program in differentiated adipocytes	15251	18745	14555	107423
+PMC12969006__F2	Proposed model for the potential mechanism by which the C5aR1 inhibitor improves radiosensitivity involves the cGAS/STING signaling pathwayEnhanced cGAS/STING signaling may contribute to the therapeutic effects of C5aR1 inhibition in CRC treatment	12273	214763	56480	19361	54131	15977	12387
+PMC12969009__F7	Probiotics-enhanced kynurenic acid mitigates cisplatin-induced nephrotoxicity in mice	18299	12359	111343	14630	12043	50868	12028
+PMC12973616__F8	SRSF2 mutation-altered target gene expression and pathway activation	16480	11796	18591	19698	20382	14619	21825	16176
+PMC12974907__F7	APPNEVs carrying APOE downregulate F‐actin polymerization signaling to inhibit synapse formation in AD	11820	11816	19353
+PMC12982759__F4	Rhubarb enhances gastrointestinal motility via calcium-mediated intestinal acetylcholine release: a network pharmacology study	18750	11555	15558	18747	12669	11441	243764	13488	12671
+PMC12988536__F8	Mechanism graph of the regulatory network and function of LYPD6 in bone formation	11789	12387	320343	77578	11691
+PMC12997992__F3	Capillary-associated microglia as potential regulators across vascular-related brain diseases	111343	20312	20304
+PMC13001626__F7	Graphical representation of the regulation and functions of L1CAM‐AS1‐RAN axis in antitumor immunity of HCC	235626	19384	210529	20296	19697	12772	12774	14628	20304
+PMC13001651__F6	Hypoxia-activated theranostic nanoagent for tumor imaging and photoimmunotherapy	110080	15289	214763	54131
+PMC13004834__F8	Schematic diagram depicts the mechanism by which DDX41 promotes immunosuppression in OSCC	72935	56480	104272	13176	18774
+PMC13004995__F3	CAFs modulate proliferation, metabolism, angiogenesis, immune microenvironment and chemotherapy resistance of tumors	16009	22601	19412	14460	16001	15234	16002	12894	24047	21802	13649	211323	12504	111343	14173	54635	22339	84004	76527	20307	20779	20848	108138
+PMC13005559__F4	Fatty acids ß-oxidation pathways in cardiomyocytes mitochondria are strongly downregulated by oxaliplatin	14072	14081	12895	11835	12896	12274	93747	97212	231086	15107	52538	110446	18293
+PMC13006185__F3	Therapeutic Efficacy of Curcumin Nanoparticles in Parkinson’s Disease: An Integrated Analysis of Network Pharmacology, Experimental Validation, and Gut Microbiota	18984	11651	20848	12566	11820	328572	56637
+PMC13012641__S1	The in vivo process of DMY-bNE	18299	625249	76113	50868	16819	106821731	22041
+PMC13014510__F5	Common transcriptional regulators identified in liver of MCD and GNMTKO mice	54132	16416	75600	230558	12279	96935	20851	18035	14864	56490	57429	14229	19883	19885	14433	22228	11863	21881	20503	218103	12686	28248	11622	67528	50490	11539	213484	66912	12180	18109	13555	235584
+PMC13020035__F1	M2 macrophage-derived apoptotic vesicles alleviate liver fibrosis via miR-1224-5p-mediated inhibition of the SP1/TGFB pathway in hepatic stellate cells	20905	20683	17126	17127
+PMC13030320__F1	Integrated mechanisms of AFB1-induced fetal bone toxicity	22337	111343	21926	19226	24088
+PMC13035822__F6	Comprehensive analysis of death pathway-specific effects on telencephalic cell population dynamics	13193	56532	12274	18508	12263	50913
+PMC13040703__F2	Hydrophilic metabolites across the gut–liver axis and plasma in WD-fed MC4R KO mice	11697	15925	104253	104121
+PMC13042590__S1	A) Construction of PEA nanozymes from EGCG and L‐arginine (L‐Arg) via oxidative polymerization, Schiff‐base condensation, and Michael addition	109807	20423	12387	109305	12567
+PMC13042973__F8	Platelet Rubicon in regulating Platelet activation and thrombosis	16797	20963	12229	234779
+PMC13045489__F8	This schematic illustrates a central mechanism driving autoimmune hepatitis progression, in which the stability of the deubiquitinase CYLD in macrophages acts as a critical regulatory checkpoint	74256	20202	217069	21898	330122	20310	14825
+PMC13049941__F1	O-glycosylation Pathway: Mucin type O-glycosylation is initiated in the ER and Cis-Golgi by ppGalNAcTs to form the Tn antigen and completed in the Golgi after initial action of T-synthase to generate the Core 1 O-glycan	27450	20446	14419	21840
+PMC13054427__F8	Crebanine protects against ovariectomy-induced bone loss by targeting Sirt1 to interfere with NFKB acetylation and ROS activity	22034	237038	50490	109807	13038	11433	17395	11358	18018
+PMC13068360__F1	The H‐Exo–mediated functional signaling pathway in neurons	12955	105171	625249
+PMC13068918__F10	Ginsenoside Rg1 ameliorates lipopolysaccharide-induced depressive-like behaviors in mice by attenuating neuroinflammation and neuronal damage	50523	16798	15235	64010	232334
+PMC13069639__F8	Integrated analysis of network pharmacology combined with transcriptomics	19412	12504	14281	56717	17210	110821	19713	16476	20963	22339	12043	16846	17380	14255	17392	19211	104327	12028	14825	20310	17874	20296	20306	74180	20202
+PMC13073001__F5	Potential combination therapeutic approach, involving AIs and HDACI, at suboptimal doses for HR+ BC	20845	13074	13075
+PMC13086017__F9	Cycloastragenol Inhibits Colorectal Cancer Cell Metastasis via Epithelial–Mesenchymal Transition and the PI3K Signalling Pathway	12558	12550	56717
+PMC13089015__S1	Schematic diagram	214763	104017	107421	56480
+PMC13089156__F2	Modular functional architecture of Tregs: Core suppressive mechanisms, lineage stability, and tissue-specific adaptations	12504	211488	20371	12524	12519	11789	12394	16364	53314	12014	107080640
+PMC13093754__F6	Gene expression changes in the PPAR signaling pathway in the liver under graded heat stress conditions	109660	12491	17436	11364	20249	14077	11770	80911	16956	11832
+PMC13097940__F7	Graphical illustration of the mechanism by which O-GlcNAcylation regulates FOXO1 during decidualization	14583	56458	108155	19109	16006
+PMC13097952__F7	Salvigenin alleviates ferroptosis and pyroptosis in myocardial ischemia/reperfusion models by inhibiting the NLRP3 pathway	216799	26570	625249	111343
+PMC13099587__F1	Shared and interacting upstream trigger factors in ferroptosis and pyroptosis	109807	625249	68943	26570	214763	76113	69146	56480	54131	109756	104199	104160	14950	111364	104201	104200	109740	109742	109741
+PMC13101282__F1	Intersection of the FGFR3 and CNP-NPR-B Pathways	14184	20846	19412	110157	12799
+PMC13106906__F3	Pathway enrichment for the 98 proteins significantly more abundant in DKO cerebral cortices with a FDR = 0	319565	66201	66118	12237	243529	319159	207352	66988	19659	14735	18197	68215	11792	53817	53890	69719	269639	67897	67781	56505	50995	26572	245474	20729	83409	67332	66508	17219	13030	20174	93762	22335	72047	11740	15135	23997	13433	269536	19175	52036	15191	19933	76479	110052	66354	27967	16832	19172	22099	13641	20833	210992	16907	26441	20024	98053	15108	72692	231086	13052	66480	19946	18655	19384	97212	16898	93747	19386	107272	52538	110208	269951	15929	18477	13885	20102	70572	216848	20055	19299	54709	20280	108911	15488	97165	107702	98221
+PMC13140143__F8	Nicotine and ALS-associated microglial proteomes	269254	64009	13436	56354	22145	58800	18039	76559	22152	51897	22151	53857	69926	22153	237806	227058	73710	16419	16416	18751	227613	67951	14802	18845	20116	16443	14113	269999	77569	11775	244891	72895	213484	72047	22143	68810
+PMC13140817__F8	Curcumol Ameliorates Diabetic Nephropathy by Inhibiting Podocyte Ferroptosis Through the xCT/GPX4 Pathway	22041	17254	26570	68428	625249
+PMC13144721__F8	Hypothesized working model	12487	12519	14939	16183
+PMC13177022__F7	Therapeutic Effects of Active Compounds from Poria Cocos on Pulmonary Hypertension	21752	18780	19016	16452	13617	19225	16173	11350	56717	14061	18750	18596	13649	20423	16150	17392	16193	12443	26419	21926	19219	17246	11421	16542	11682	13982	16590	16453	17380	19878	319757	18706	17390	11491	19247	17395	12675	20393	11651	13618	26416	13819	11835	26417	216799	19412
+PMC13182238__F1	Multi-omics framework identifies CTSH as a causal regulator of proliferative diabetic retinopathy (PDR)	13036	22339	16176	18127	16542	14254	11482	21687	13876
+PMC13182895__F8	Modulation of cellular signalling pathways and the anti-cancer actions of UC2288 in UM cells	12566	17390	229317	11911
+PMC13187256__F10	POMGNT1 deficiency induces retinal degeneration via RIPK3-mediated necroptosis and autophagic dysregulation	13806	20215	74568
+PMC13201656__F6	Functional cAMP pathway compensation between evolutionarily related FSHR and LHR illuminates the molecular mechanism and OHSS treatment options	20845	16476	23849	22339	14766	12156	15901	11421	13653	15490	15200	14281	193740	19055	23797	14309
+PMC13204840__F6	Molecular mechanisms by which phloretin mitigates cancer cachexia-induced skeletal muscle wasting	18299	21926	20848	433766	11691
+PMC13206740__F9	Schematic summary	229317	11911	12894	11430	625249
+PMC13220105__F5	Proposed schematic model for ER-mediated regulation of hepatic hepcidin gene expression and its production via CRBN-ESRRG signaling pathway	226641	58799	26381	84506
+PMC13237158__F6	LncRNA-mRNA-pathway network analysis of the most enriched (blue) module	103929	13723	69281	56205	12554	14069	13130	20223	18754	212541	19412	21823
+PMC13237232__F7	Schematic diagrams of the signaling pathways involved in macrophage reprogramming induced by chemotherapy-derived DAMPs	15289	21898	20202	20848	54131	117149	17874	16179	22034	266632	56480
+PMC13238508__F10	An Integrated Approach Combining Chemical Profiling, Network Pharmacology, and Experimental Validation Is Used to Clarify the Pharmacological Basis of the Yiqi‐Tongluo‐Huoxue‐Mingmu Formula in Diabetic Retinopathy	18299	13982	16476	20848	104327
+PMC13243862__F1	Chain reaction hypothesis	17726	109912	574402	13116
+PMC13256434__F6	The dual mechanisms through which CGA suppresses allergic asthma initiation and recurrence	12640	18299	26570	11684	68428	625249	21926	111343	50868	106821731
+PMC13256653__F4	Pathway diagram describing medium- (C6-C12) to long-chain (C12+) fatty acid synthesis enrichment in the Oat1 KO microbiomes	14104	14102	14072	12870	234309	104153	109584	109729085	19384	26922	18299
+PMC13256742__F9	Schematic diagram showing the potential mechanism of HT in the D-gal-induced POI model (by www	18299	50868	12028	11705
+PMC13256843__F7	Subthreshold Thermal Stress Aggravates Methamphetamine-Induced Cardiomyocyte Pyroptosis via the Mitochondrial ROS/BAX/mtDNA/NLRP3 Pathway	12028	20905	216799	69146	111343
+PMC13257271__F8	Proposed renoprotective mechanism of TQ	78757	56717	97998	111343
+PMC13257695__F3	Other exposures	231691	53603	77125	12504	100043254	19819	109740	109641	56338	214763	11622
+PMC13269003__F8	Schematic illustrating how perioperative stress disrupts neuroplastic and circadian signaling through epigenetic dysregulation, and how HDAC inhibition mitigates these alterations	12064	12753	11838	18627	18626	18628	12953	12952
+PMC13269129__F7	BDNF Restores Ethanol-Impaired GABAergic Synaptic Plasticity and Reduces Effortful Reward-Seeking Behavior	12064	22065	13130	109912
+PMC13273926__F7	Proposed model linking Capns1 to cholesterol metabolism in ethanol‐treated liver	14072	12491	19013	104371	14102	21819	14124	11303	11307	15357	13122	16816	16835
+PMC13278353__F1	Coenzyme A compartmentalisation, synthesis, and sequestration	12896	12908	74114	71743
+PMC13279192__F7	Proposed mechanism for the mast cell stabilizing effects of IFNA	111654	13130	11592	21926	16797
+PMC13280168__F8	BRafV600E and Pten deletion promote Sox2 stabilization in aNSPCs	223227	20674	109880
+PMC13290280__F5	Dynamic remodeling of extracellular vesicle cargo composition in response to microenvironmental stressors during hematological malignant transformation	21926	80718	723876	93759
+PMC13292440__F1	IL-6 signaling pathway and overall experimental timeline	20848	19412	22387
+PMC13304611__F8	The microbiota–SCFA–FFAR2–NLRP3–IL-1B signaling pathway underlying the synergistic antidepressant effects of DJZT combined with ketamine	233079	216799	111343
+PMC13317339__F2	Diabetes drives maladaptive endothelial plasticity through interconnected pathways	21864	16449	15205	18128	15213	30878	12767	54485	71690	11601	18127	16598	16600	21824	12562
+PMC13323391__F1	NMD pathway	17149	19704	18202	71997	74133	326622	233789	68134	103677	229512	226517
+PMC13324684__F1	Fabrication schematic of temporal-responsive hydrogels (TRH) and their application in the bone-angiogenic cascade for diabetic bone regeneration by reprogramming energy-metabolic pathways	14136	22044	18299	109807	22339	15251	11691	18181	12393
+PMC12212749__F6	Effects of CPB2 and CPN on complement anaphylatoxins	12273	319430	56373	12266	12268
+PMC12218160__F7	Mß-CD attenuated atherosclerosis by inhibiting GSDMD-mediated pyroptosis	21898	69146	216799
+PMC12292156__F7	Maresin1 Alleviates Ischemia Reperfusion Injury After Lung Transplantation by Inhibiting Ferroptosis via the PKA-Hippo-YAP Signaling Pathway	50523	16798	11358	329252	11486	50790	22042
+PMC12298213__F17	Therapeutic mechanism of AD808 in the mouse model of Alzheimer’s disease	83433	54131	20963	12064	14573	18049	111343
+PMC12310616__F2	Macrophages undergo coordinated metabolic and epigenetic reprogramming	111343	56717	15251	12394
+PMC12310628__F2	High concentrations of DVGs significantly enhance type I/III interferon signaling by detecting and activating RIG-I-like receptors and MAVS signaling pathways	21926	228607	22029
+PMC12310918__F2	IFNA overproduction by senescent monocytes in patients with SLE	214763	111654	14463
+PMC12312329__F8	The role of NR1I3 in planarian AP axis reestablishment and tissue pattern maintenance	77583	18973	11789
+PMC12312423__F2	Lung organoids generation from induced pluripotent stem cells (iPSCs) and primary lung tissues	14173	12159	13645	21864	14165	20233	14178
+PMC12317026__F8	Schematic regulatory network of the SREBP2/SORT1/p38/Beta-catenin/ZEB1 signaling axis responsible for HCC metastasis	12387	21417	17395	12550
+PMC12317280__F8	CAFs‐derived CTHRC1 promotes pancreatic cancer development and metastasis, cell migration, and tumor metastasis through the LIF‐STAT3 axis	20848	16878	68588	104272
+PMC12319392__F3	mTOR enhances glucose uptake and glycolysis in CD4+ T cells by increasing GLUT1 expression and regulating the IRS1/PI3K/AKT pathway	56717	16367	12504
+PMC12322066__F7	Mechanism by which piENOX2 accelerates RA disease progression	16401	268420	209224
+PMC12330585__F7	Protein carbonylation and insulin secretion in pre-T1D	19339	20614	18195	12281	111343	15978
+PMC12346790__F15	Intracellular mechanisms by which miR-193a may mediate E2-induces vasculogenesis	17125	15901	17128
+PMC12353998__F2	Exercise-induced mitochondrial signaling	56484	72170	69076	214763	216799
+PMC12359298__F3	Network of miRNA‐gene interactions between the microRNA targets	15461	26395	110157	26413
+PMC12372083__F1	Molecular and cellular mechanisms underlying age-related thymic involution and its impact on T-cell development	111343	16878	18413	12505	12504	13450	17869	13557	15218	56636	208188	22417
+PMC12374619__F7	Schematic diagram of the mechanism by which chitosan and its bioactive degradation product NAG exert immunomodulatory and antitumor effects	15277	216799	111343	214763	54131	56480
+PMC12374730__F9	Proposed model	20202	20201	12772	20296	111343	20305	216799	17126
+PMC12391549__F1	CREM as a regulatory checkpoint of CAR and IL-15 signaling in NK cells	20848	12916	21926
+PMC12395929__F1	Integrin signaling in MSC-derived lineage differentiation	20779	111343	11450	12606
+PMC12402166__F8	The mechanism by which CAF-derived AEBP1 induces T cell dysfunction in tumors	21926	14939	11568	12504	216197
+PMC12404061__F4	Crosstalk between ferroptotic cells and immune cells	11596	111343	15978
+PMC12404633__F5	Potential pathways of TLR7-mediated preeclampsia pathogenesis	170743	21826	19090	12571
+PMC12406719__F1	Complement system	12263	14136	12266	109828	12279	12274
+PMC12407531__F3	AB uptake and degradation in AD	104253	20181	13030	13033	21425	15925	16784	11487	16835
+PMC12415560__F11	Sophora moocroftiana seeds ethanol extract regulates NLRP3 inflammasome activation and pyroptosis via ROS/TXNIP pathway to amelioration of NAFLD in vitro and in vivo 	20603	56338	216799	111343	69146
+PMC12433887__F5	Difference of partial protein phosphorylation and protein expression in Focal adhesion signal pathway	18596	109880	14083	12015	19417
+PMC12447360__F1	Different pathways of platelet demise	21926	74568	381560	19766	56532	12043	12028
+PMC12462665__F3	Postulated metabolic pathway for the processing of 1,2,4-trichlorobenzene after conjugation with glutathione in rats (according to Kato et al. (1993) and Bakke et al. (1992))	12679	14835	109550
+PMC12485853__F4	TCT inhibits PGLYRP1 signaling via TREM-1	21946	16839	58217	257632	107607
+PMC12486228__F1	Complexity of leptin resistance	56717	18976	12702	16452	20848
+PMC12488686__F8	Therapeutic effects mediated by SIRT6-expressing ERC-Exos on AR	50721	12504	17869	20371
+PMC12494117__F9	Schematic diagram showing the proposed role of DHCR24 in promoting cancer via modulating the TGFB1 pathway	17127	17126	17128	74754	21375
+PMC12494301__F7	Illustration of the proposed mechanism by which CENPU promotes triple-negative breast cancer invasion, tumorigenesis and breast CSC properties through the furin-proNGF-NGF signaling pathway	18049	16851	18550	71876
+PMC12495289__F1	Assessment of the main signaling pathways involved in the combined therapy of hepatocellular carcinoma using Sorafenib and NK cells in xenograft mice model	14103	13649	14255	19412	14102	12387	56717	17869
+PMC12500084__F2	Illustration of the canonical JAK/STAT pathway	16451	54721	20846	12703	20847	24110	16391	17858
+PMC12503608__F8	Identification of Immune Candidate Genes in Post-Sepsis Syndrome: Linking Innate Immunity to Long-Term Autoimmune Responses	12504	12259	13058	11816	20304
+PMC12517100__S1	Illustration of tomatine-containing mRNA vaccines against tumors and infectious diseases	218629	54123	107607	12524	12519	12504
+PMC12521746__F4	Dual targeting of TIGIT and VISTA in non-small-cell lung cancer immunotherapy	171285	60533	14938	20371	12477	100043314	225825	18566	16768	20848	74048	55985
+PMC12531483__F6	Hypothetical model	74568	19766	214763	58217	83433
+PMC12578398__F1	GAB2 links initiating mutations and progression signaling in myeloid leukemogenesis	13435	109828	14389	18148	19412
+PMC12580692__F3	Cytokine receptor signaling and anti-cytokine therapies	16068	16173	111343	15978	13856	22018	16451	16452	17874	54721	16453
+PMC12586042__F2	Interactions of decidual natural killer cells (dNKs) and extravillous trophoblast (EVTs) at the maternal-fetal interface	12981	20304	12977	21926
+PMC12597718__F10	MiR-668-5p targets ZNRF3, an E3 ubiquitin ligase to enhance osteoblast function and alleviate senescence in doxorubicin-induced age-related bone loss	22416	16974	16973	14366	12387	407821
+PMC12603469__F11	ICD-related proteins regulating immune microenvironment and fibrosis in IPF	216799	11789	111343	16189
+PMC12605365__F7	Working hypothesis: PdgfrA regulates apoptosis through Atf5 and Gadd45b in Beta-cells	18595	107503	17873	12043
+PMC12620540__F1	Monocyte differentiation into macrophages versus dendritic cells	16658	27049	14011	11622	16364	21926	20602	17133
+PMC12621241__F9	Anti-DDR1 mAb exerts anticancer effects through three primary mechanisms	12305	14473	20302	20310	109660
+PMC12622476__F8	Molecular mechanism by which AGAPIR potentiates angiogenesis via the USP18/HIF‐1A axis	13604	21864	24110	15251	12741
+PMC12629750__F6	(20S)-protopanaxatriol attenuates Ang II-induced renal injury via PTPN1-mediated AMPK/mTOR signaling pathway	19246	27475	56717
+PMC12650292__F2	Hippo Pathway (Created in BioRender	15235	50523	16798
+PMC12670889__F6	Ribonucleotide reductase subunit M2 mediates the mTOR pathway to recruit furin endoprotease and promote maturation of dengue virus	20135	56717	18550
+PMC12677608__F8	Schematic of PM2	27057	14319	11697	12224
+PMC12686128__F6	Conceptual model illustrating the mechanism by which maternal nutritional restriction influences fetal development through governing GAB1 expression and stability in the placenta	14388	17189	20854
+PMC12695758__F8	Model illustrating how IFNG induces the formation of FMs through CD40-DGAT1 signaling to control M	16452	20846	21939	107423
+PMC12701038__F2	mTOR/autophagy pathway: Sirolimus inhibits mTOR, leading to increased autophagy	22084	64930	19744	56717	22241
+PMC12701984__F10	Schematic overview of the mechanism by which melatonin reduces atherosclerotic plaque vulnerability	17748	17750	50721
+PMC12735480__F6	Myricetin Attenuates IMQ-Induced Psoriatic Inflammation Through Multi-Target Modulation: Evidence from Network Pharmacology and Experimental Validation	13649	17395	19225	21823
+PMC12741372__F7	Mechanism by which circFKBP8(5S,6) and its encoded protein cFKBP8 promote CUMS susceptibility in mice	19109	13490	56717	22241
+PMC12748718__F8	Autoregulatory EDB(+) FN signaling in activated MuSCs	17127	110809	13607
+PMC12751824__F8	Mechanistic diagram of this study	21926	12550	12558
+PMC12752604__F8	The mechanism by which microglial feimin deletion triggers microglial reactivity in the lipotoxicity model	111343	56717	17316
+PMC12763839__F7	Stigmasterol exerts antioxidant effects through activation of the Keap1/Nrf2 signaling pathway in Parkinson’s disease model	104167	20837	50868
+PMC12767102__F9	EGFR‐Driven Immune Suppression and F127ZIF‐8AB680 Intervention in Tumor Immunity	13649	104167	12524	12519
+PMC12774766__F7	Results and work model	56636	238055	59021	243168
+PMC12781176__F8	Schematic illustration showing the mechanisms by which AHR+ dMφs regulate maternal-fetal tolerance in URPL pregnancies	16176	54131	56480	214763	11622	216799	81897	12043	17390	17395	11964	11863	12700
+PMC12781865__F1	Simplified schematic of the HH signaling pathway	19206	319757	24069	14632	18109
+PMC12784964__F5	Multiple pathways aim to protect cardiomyocytes by suppressing the activation of BAK/BAX as the downstream node	12043	12028	17210	12015	18746
+PMC12789597__F8	Graphical summary of SIRT6’s regulatory role in balancing tryptophan metabolism and its effect on brain health	20539	11298	216343	50721
+PMC12794520__S2	The mechanism by which CaHA/PLGA activates ADSCs	17127	17126	17128
+PMC12802310__F3	AMPK - centered molecular pathways of aerobic exercise - mediated fatty acid metabolism regulation	14104	56636	19877
+PMC12802310__F4	Aerobic exercise - mediated Nrg4/STING pathway in regulating hepatic - adipose tissue metabolic crosstalk	13649	54131	20850	214763	14104	83961	13869
+PMC12804008__S1	The preparation and therapeutic mechanism of personalized biomimetic bio-cornea (DBC@L-Cel)	195727	18299	15139	12387
+PMC12808304__F8	Paradigm for Wnt5ahi fibroblast involvement in the scleral ECM homeostasis and pathogenesis of myopia	26564	26563	22418	16398	20692	18542	76477	216725	12153
+PMC12822013__F1	The Pickering emulsion-based cascade bioreactor (PEBR) for the precision treatment of GA	12359	21926	216799	246178
+PMC12824406__F6	IL-17A-mediated JMJD3 regulation of keratinocyte functions in normal and diabetic wound keratinocytes	22034	16400	21857	20297	14825	330122	20311
+PMC12847136__F10	Zinc Alleviates Oxidative Stress Injury of the Testis Induced by Zearalenone through Sirt3-Foxo3 Pathway in Mice	20845	13070	12028	64384	56484
+PMC12847768__F8	Proposed mechanism	15235	21679	102657
+PMC12847889__F9	Model depicting the mechanism of which CD97 enhances viral replication	214763	56480	54131
+PMC12848158__F7	PFKFB3 alleviates chondrocyte DNA damage and senescence in osteoarthritis	170768	11920	245000	16153
+PMC12850263__F7	Integrated ERK, PKA, YAP/TAZ, and SHH signaling drives mammalian cortical expansion and lineage diversification	13876	20423	103971
+PMC12856966__F2	Cell and non-cell autonomous dysfunctions during ALS progression	111343	21926	16193	17418
+PMC12886531__F7	MDK alleviating bone loss	17242	21926	111343	11691	12393
+PMC12887887__S1	Purpurin-based metalloimmunostimulants amplify ROS and modulate the STING/TNFA axis to augment melanoma immunotherapy	17418	100043254	12608	16193	109807	18299	56480	214763	15289
+PMC12890627__F9	Apigenin ameliorates postoperative inflammation and accelerates wound healing in a rat model of perianal abscess by targeting the JAK1/STAT3 pathway in macrophages	18299	20848	21926	111343
+PMC12891852__S1	Clostridium perfringens alpha toxin (CPA) drives the mobilization of immature neutrophils and triggers pathological NETosis, resulting in multi-organ injury	15289	21898	17523	12704
+PMC12894414__F9	The mechanism by which HYP ameliorates DSS-induced UC and associated anxiety-like behaviors	12064	111343	21926
+PMC12905989__F1	Advances in molecular glue degraders for targeted protein degradation: Focus on NEK7, WEE1, CDK2, GSPT1 and VAV1	14852	14853	109910	22778	22780	18582	22779
+PMC12909009__F9	Study summary	14828	11669	234839	53610
+PMC12910385__F4	Proposed mechanisms of GSN and HDL immunoregulation in autoimmunity	227753	11592	19288
+PMC12920695__F7	Gut microbiota L. reuteri metabolite indole-3 acetic acid (IAA) aggravates neuropsychiatric lupus in mice via the AHR/STAT3 pathway	11622	111343	20848
+PMC12921816__F3	Mechanisms of itraconazole alone and its combination with chemotherapy and anti-PD-1 immunotherapy	94192	13806	12608	56717
+PMC12922784__F3	Complosome signalling dynamics governing immune activation in both immune and cancer cells	12487	17221	12720	21977	21823	56717
+PMC12927312__F7	Hippo kinase LATS1-dependent regulation of IFN-I in cytosolic nucleic acid sensing PRR signaling pathways	56480	54131	16798
+PMC12939867__F2	Leptin–melanocortin pathway	18976	16847	333050	18548	83946	17202	11604	17201	244958	14683	20464
+PMC12944834__F1	 MR1-dependent MAIT cell activation	15064	11789	12487	12519	21926	15978	18299
+PMC12946533__F7	sFgl2 from sFgl2-MSCs binds neutrophil CD32b, activating the TGF- Beta-Smad2/3 pathway	17523	111343	21803	17127	17126
+PMC12948439__F11	The lymphatic endothelial LPA signaling pathway in lymphatic valve formation and maintenance	212541	14234	16839
+PMC12951179__F1	Red blood cell metabolic pathways affected by caffeine exposure	13077	11541	12183
+PMC12965250__F1	Canonical and non-canonical NFKB signaling pathway	21926	111343	16994	22030	22031	19698
+PMC12965250__F2	Effect of HBsAg on NFKB pathway	21898	17874	68652	19698
+PMC12968011__F1	Cellular RNA-sensing pathways	142980	170743	170744	15957	228607
+PMC12968324__F7	CMA‐mediated USP9X degradation promotes SHH medulloblastoma progression by facilitating SUFU ubiquitination	20423	22284	24069
+PMC12975384__F6	Graphical summary representing the in silico Ingenuity Pathway Analysis performed on 137 genes common between two GC-responder strains (A) and 107 genes common between two nonresponder strains (B)	14473	18667	21926	20361	60505	12946	12505	14632	12981	15130	16191	16189	16150	16163	15978	20586	12675	12912	16193	15129	223701	21414	239719	19317	226075	15216	11516	17172	19017	19712	18012
+PMC12976500__F4	tNIR therapy restores glutamatergic synapse and retrograde endocannabinoid signaling disrupted by chronic SD	12801	72961	432530	67184	53623	14800	210274	14802	11515	243961	18212	22348	12322	14073	16519	14394
+PMC12981063__F9	Gentiopicroside alleviates type 2 diabetes mellitus by attenuating oxidative stress and reshaping gut microbiota in high-fat diet and streptozotocin-induced mice	50868	18299	17132	106821731	18104
+PMC12981425__F4	Ingenuity pathway analysis-generated network for hippocampal proteins	14281	17202	217340	268354	226255	68839	51810	12282
+PMC12992856__F2	Canonical and Non-canonical Signaling Pathways of D-serine	14661	103984	109555
+PMC13003128__F8	DNAPKcs inhibition augments efficacy of ICB by reactivating immune microenvironment	214763	56480	17869	54131	20304	56637
+PMC13022928__F8	ERC-Exos isolation, CSE preparation, and the protective mechanism of MFGE8-expressing CSE in colitis	21977	12504	17304
+PMC13035891__F7	Hypothesized mechanisms of Netrin-1 in the white adipose tissue during HFD-induced hypoxia	15251	12387	11789	606496	19016
+PMC13041028__F4	TOP2B in Pol II promoter-proximal pausing regulation	13653	21974	21849	12189	11920
+PMC13042556__F1	Programmable Nanoreactor Orchestrates Cascade of DNA Sensing to Amplify cGAS‐STING Activation for Cancer Immunotherapy	15289	11835	214763
+PMC13104786__F9	Involvement of CMA lysosomal degradation pathway of TXNDC5 in TM ECM protein accumulation	21812	21813	21911	104253	12761	22376
+PMC13113763__F4	Proposed model for FOXL2 and FOXO3 action in maintaining the ovarian reserve	26927	64930	17311	56484	14566	19211
+PMC13129111__F7	Kynurenine promotes angiogenesis through mTOR signaling in head and neck squamous cell carcinoma	13649	56717	13645
+PMC13136592__F10	Qiling Hushen Formula Ameliorates Type 2 Diabetic Kidney Disease via Gut‐Kidney Axis Restoration and TLR4/NF‐KB/NLRP3 Suppression	17874	216799	21926	111343
+PMC13140868__F4	Ingenuity pathway analysis (IPA) of PTZ	21947	21939	12487	226778	78757	17869	14173
+PMC13140911__F8	Model describes how GPR35 in the ACC region controls inflammation through the Nr4a1/PI3K/AKT signaling pathway, thereby mitigating the critical role of NP	64095	15370	12514	111343	16193	16153	117211
+PMC13161174__F11	Molecular mechanism by which cardiomyocyte-derived BDNF and 7,8-DHF inhibit cardiac fibrosis	12064	17131	66313	17128	17127	17126
+PMC13170200__F8	Proposed molecular mechanism of TRIB3/DDX5‐mediated G‐quadruplex resolution under glutamine (Gln) deprivation	228775	13207	12189	19362
+PMC13172573__F10	Potential mechanism of RA in treating pulmonary fibrosis in mice	14164	12144	18299	20779	16653
+PMC13196497__F10	Tryptophan metabolism and the pre-renal azotemia plasma metabolite signature	18299	13106	20887	71562	98256	70789	107766
+PMC13206844__F7	YTHDF1-Mediated m6A Modification of NREP Promotes Corneal Fibrosis via TGFB–Smad Signaling	228994	27528	17126	17127
+PMC13227727__F1	Anti-fibrosis treatment of anti-FAP antibody conjugated SIS3 loaded PLGA@PDA nanoparticles in acute myocardial infarction and chronic pressure-overload model	14089	17126	21803	17127	17128
+PMC13235019__F8	Endothelial PHD3-dependent regulation of post-ischemic kidney repair	11863	18299	22346
+PMC13247428__F7	Mechanisms	56811	16974	16973	12387
+PMC13253295__F0	Upper panel depicts the murine periodontitis model induced by silk ligature placement around the maxillary second molar, facilitating food impaction and polymicrobial dysbiosis that elicits inflammatory alveolar bone loss	80750	18260	14825	20310	15139	104167
+PMC13253913__F9	Schematic diagram illustrating how the GAS5-Notch-NFKB/NLRP3 axis mediates M1 macrophage polarization, reprograms macrophage phenotypes, and aggravates CaOx induced kidney injury in CaOx nephrolithiasis	21898	15289	216799
+PMC13256568__F3	Activation Mechanism of the TLR4/Rac1/NLRP3 Pathway in AD	11820	21898	216799	19353	111343
+PMC13282036__F9	Graphical abstract	17873	15235	52463
+PMC13296466__F4	Transcriptomic effects of ozone exposure dependent on Cd44 and Rhamm signaling	18517	12575	81897	20201	16175	105675	26410	16171	142980	13866	12505
+PMC13297613__F7	MBNL1-mediated intestinal fibrosis	56758	14784	21803	19412	110157	14268	12842
+PMC12213791__F6	Pathological mechanisms driving emphysema and the therapeutic actions of Ang-(1-7)	216799	111343	12387
+PMC12230194__F7	Mechanism of TEC inhibits GIOP mice osteoclast formation	21823	22034	18018	13038
+PMC12246773__F4	Alterations of proteins involved in peroxisomal and mitochondrial fatty acid B‐oxidation in the kidney of the Ndufs4 KO mice	11364	11430	74147	74156	74114
+PMC12273680__F7	Intermittent hypoxia aggravates asthma inflammation via NLRP3/IL-1Beta-dependent pyroptosis mediated by the HIF-1A signalling pathway	15251	216799	69146
+PMC12291662__F9	Cellular defense effects of flavonoids, which function as direct free radical scavengers and as stimulants of the Nrf2/ARE pathway	109807	50868	106821731
+PMC12308263__F10	USP13 downregulated VEGFA expression and inhibited angiogenesis through the PTEN-AKT signaling pathway in CRC cells (Drawn by Biorender)	72607	19211	22339
+PMC12310918__F1	IFNA overproduction by myeloid cells in patients with SLE	81897	20028	111654	14124	170743	17874	54445	22034	54123	214763	56480	54131
+PMC12312280__F3	Immunostimulatory role of necroptosis in cancer	19766	21849	20682	56532	111343	20303	74568	12519	12487
+PMC12312280__F5	Necroptosis by histone modification in cancer	56532	19766	30841	232087
+PMC12336033__F7	GeneMANIA Network Analysis	16912	54396	15959	19255	15958	12766	15945	16963	20846	16145	15953	20304	229900	55932	11910	11789	15980
+PMC12395760__F9	Potential mechanisms of MenSCs therapy for NPC1	20848	16452	111343
+PMC12402350__F7	Proposed mechanism by which NUF2 promotes GBM cell proliferation, invasion, and migration through the Beta-catenin signaling pathway	66977	56637	12387	17395
+PMC12462665__F2	Postulated metabolic pathway for 1,2,4-trichlorobenzene after intraperitoneal administration to rats (according to Kato et al. (1993) and Bakke et al. (1992))	12679	14835	109550
+PMC12462966__S1	Extracellular vesicles released by UV‐irradiated keratinocytes (UVKEV) targeting colitis therapy through systemic immunosuppression	109585	12519	111343	12524
+PMC12467201__F7	Proposed model of the molecular pathway through which Lipin-1 mediates the acquisition of beige/BAT-like characteristics of white adipose tissue (WAT)	93759	14105	70673	12683
+PMC12472545__F10	Expanding the Knowledge of the Molecular Effects and Therapeutic Potential of Incomptine A for the Treatment of Non-Hodgkin Lymphoma: In Vivo and Bioinformatics Studies, Part III	19309	26914	15270	100041230	791260	11771	21803
+PMC12487681__F1	Branched-chain amino acid metabolism	229517	12266	109807	17850
+PMC12498127__F1	Proposed mechanisms linking autoantibodies, microglia, and schizophrenia	17967	18189	192167
+PMC12500084__F1	QSP models of intravenous IFNA administration in mice and men	104167	17858	18745	111654
+PMC12500629__F1	Using puromycin as a readout for metabolic pathway reliance upon pharmacological disruptions	107894	15978	111343
+PMC12513156__F8	Erianin ameliorates morphine tolerance and glioma progression through the JAK2-STAT3 pathway	16452	20848	12064
+PMC12519054__F1	Illustration of the molecular pathway of ACSS2 and ACLY mediated acetyl‐CoA generation	68738	15357	60525	104112
+PMC12520522__S1	Engineered Ganoderma‐derived extracellular vesicle synthesis and its application in the treatment of WD with reproductive dysfunction	22387	216799	69146
+PMC12552442__F7	Regulatory effect of circDhx32 on cardiac I/R injury	213541	268420	231386	72674	56458	21926	111343
+PMC12579414__F9	MiR-4284 inhibition via the APBA1/JAK1/STAT3 signaling pathway	319924	16451	20848
+PMC12591086__F2	Protein network clusters and pathways enriched by differentially expressed genes in G1 female liver	64705	19193	108037	108156
+PMC12598007__F5	Illustration diagram showing the role of DAO in muscle cell behavior and signaling pathways	13142	14114	11848
+PMC12605832__F7	Molecular regulation by SAA during osteoclastogenesis induced by RANKL	22034	111345	18299	18018	106821731	17395	242341
+PMC12633165__F6	Circuit diagrams for touch and pain sensitization	13179	245707	18390
+PMC12636283__F8	Intercepting the complement amplification loop through podocyte MC5R signaling ameliorates membranous nephropathy	17203	330267	14962	111346	17418	11537	12266	12628
+PMC12680447__F8	Decorin Deficiency Promotes D‐Galactose–Induced Skeletal Muscle Atrophy and Fibrosis by Regulating ITGB1/Akt/mTOR Signalling Pathway	16412	56717	111343	216799
+PMC12691761__F7	Molecular mechanism by which antimicrobial peptide C-1b(3-13) inhibits atherosclerosis via the miR-590-5p-regulated KLF12/p300 axis	16597	11358	21926	111343
+PMC12752777__F1	Proposed role of TLR2 and TLR4 signaling in the FBR through surface-adsorbed damaged associated molecular patterns (DAMPs)	107894	24088	21898	16193	21926
+PMC12764874__F0	Loss of cGAS-STING signaling in tumors impairs antitumor immunity and correlates with poor immunotherapy response	228607	56480	54131	214763	15945
+PMC12771826__F7	Schematic diagram showing the outline of this study	18299	56484	56208
+PMC12789345__F9	Complement C3a suppresses spinal cord NSC activation post-SCI by inhibiting UCHL1 through the NFKB p65/Nrf2 signaling pathway	50868	22223	106821731
+PMC12795308__F1	Labile iron (Fe2+) plays a central role in oxidative lipid damage due to its high reactivity	18774	16948	18299
+PMC12849424__F9	Diagram of mechanism	20296	14825	20310	15945	17202
+PMC12902182__F7	GPR108's role in regulating TLR7 signaling in psoriasis	78308	170743	17874	16193
+PMC12948281__F7	The ferroptosis mechanism induced by hyperandrogenemia in trophoblasts in patients with PCOS	14319	11835	12761
+PMC12956584__F7	Working model of immunoception in neuroinflammation	23886	404194	21823	11555	12504
+PMC12962830__F1	Balancing Intrinsic and Extrinsic Factors in CD8+ T Cell Therapy	50928	110289	13813	252838	12515	13051	630146
+PMC12963316__F6	Interactions between pulmonary epithelial cells and other cell types	17387	20423	111343	76509
+PMC12964565__F3	FOXP1 in BAT development and thermogenesis	19412	108655	70673
+PMC13001651__F8	The PLAF@P/T-PD nanoassembly with a core-satellite structure formed through electrostatic interactions between a negatively charged polymersome core and multiple positively charged satellite polyplexes	22277	100043254	21685	104167
+PMC13041068__F1	The lock-equipped six-helix DNA bundle (L6HB) for targeted siSTING delivery and modulation of the cGAS-STING pathway in Alzheimer’s disease	214763	56480	54131	111343
+PMC13042873__F8	Mechanism scheme: Model illustrating how BM CD55+ intermediate mature neutrophils release NETs to induce BMSC senescence and promote bone aging	13136	15251	18602
+PMC13086702__F8	Mechansistic figure illustrating the crosstalk between TGFB/Smad, Wnt/Beta-catenin, NFKB, and PPARG signaling, and the modulating effects of PZQ	17131	17126	17127	17128	22416	12387	21819	17869
+PMC13101164__F8	Proposed mechanism: PSMB9 activates the NFKB pathway in IL-1Beta-stimulated chondrocytes	16912	111343	12824	17386	19696
+PMC13105515__F3	3,4-Dimethoxychalcone-induced caloric restriction inhibits PANoptosis to promote ischemic and diabetic skin flap survival: experimental studies	22416	21425	12387	56717
+PMC13117113__F1	Mechanism by Which HSW Targets the AMPK/SREBP-2/PCSK9/LDLR Axis to Regulate Cholesterol Homeostasis	100102	16835	20788
+PMC13118383__F3	Esculetin Attenuates Inflammation and Fibrosis to Prevent AKI-to-CKD Transition in Adenine-Induced Renal Injury by Inhibiting the EGFR/SRC/PI3K/AKT/NFKB Signaling Axis	13649	20779	57916	21938	17983	12266
+PMC13144427__F8	Proposed mechanism by which amentoflavone alleviates cardiac remodeling and dysfunction	21375	17126	17127	17128	17131
+PMC13150932__F8	Scheme of the detailed mechanism by which TRPV1 promoted pathological neovascularization	111343	193034	11700
+PMC13151338__F10	Catalpol-pretreated MMCs alleviate cisplatin-induced acute kidney injury through multiple pathways by promoting VEGF-A secretion	22416	22339	20848	21682
+PMC13170300__F6	HvKp-Induced PANoptosis in AMs	111343	16153	20846	74568	11697
+PMC13185436__F10	SLC29A’s involvement in the regulation of autophagy	211488	71279	63959	56208	12043	56717
+PMC13205896__F8	Mechanism schematic of cryoablation activating the cGAS–STING signaling pathway in macrophages	109660	12766	12504	15945	214763
+PMC13212586__F9	Inhibiting the P2X7R-NLRP3 inflammasome pathway regulates CXCL16 to alleviate podocyte injury in mice with adriamycin nephropathy	111343	216799	66102
+PMC13217716__F6	Hypothetical mechanism of PDGFRB induced cataractogenesis	12387	17126	16000	216233
+PMC13239690__F8	Graphic abstract of this study	111343	16193	58203
+PMC13246286__SF61-Notch pathway	When Dll1-Notch is activated, NICD translocates to the nucleus and activates the transcription factor complex composed of CoA, MAML1, and CSL through the canonical pathway	103806	71832	21926
+PMC13248797__F1	The NKN‐LNP structure and its therapeutic mechanism for ischemia‐reperfusion injury‐induced AKI	17153	103929	21780
+PMC13257158__F5	The proposed mechanism by which p53 modulates APR-246-induced ROS production and cellular response	14630	18104	15368
+PMC13277423__F7	PLA1-SPNS1-LPLAT7 pathway recycles unsaturated 1-lysophospholipids into phospholipids	18774	73658	21819
+PMC13284916__F7	Npnt/EGFR signaling in the POM during cornea development	114249	13649	20846	16451	16452	20848
+PMC13316050__F11	Proposed signaling pathway elucidated the molecular mechanisms involved in this study	215798	56717	246722
+PMC13326491__F8	Pattern diagram: JAK/STAT pathway-mediated regulation of EMSCs osteogenesis by the LNGFR-regulated GH/IGF axis	14599	16001	14600	16452	20848	12393
